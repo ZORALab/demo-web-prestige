@@ -1,0 +1,59 @@
+[Metadata]
+Name = 'Archives'
+Description = """
+Monteur's .tar.gz and .zip packagers released to hosting repository.
+"""
+Type = 'archive'
+
+
+
+
+[Variables]
+
+[FMTVariables]
+
+
+
+
+[[Dependencies]]
+
+
+
+
+[Releases]
+Target = '{{- .RootDir -}}/releases'
+Checksum = 'sha512'
+
+[Releases.Data]
+Path = '{{- .RootDir -}}/releases'
+Format = 'toml'
+
+[Releases.Packages.all-all-hestiaHUGO]
+OS = [ "all" ]
+Arch = [ "all" ]
+Source = '{{- .PackageDir -}}/hestiaHUGO-{{- .App.Version -}}.zip'
+
+[Releases.Packages.all-all-hestiaHUGO-GPG]
+OS = [ "all" ]
+Arch = [ "all" ]
+Source = '{{- .PackageDir -}}/hestiaHUGO-{{- .App.Version -}}.zip.asc'
+
+[Releases.Packages.all-all-hestiaGO]
+OS = [ "all" ]
+Arch = [ "all" ]
+Source = '{{- .PackageDir -}}/hestiaGO-{{- .App.Version -}}.zip'
+
+[Releases.Packages.all-all-hestiaGO-GPG]
+OS = [ "all" ]
+Arch = [ "all" ]
+Source = '{{- .PackageDir -}}/hestiaGO-{{- .App.Version -}}.zip.asc'
+
+
+
+
+[[CMD]]
+Name = "Placeholder"
+Type = 'placeholder'
+Condition = [ 'all-all' ]
+Source = ''
+Target = ''

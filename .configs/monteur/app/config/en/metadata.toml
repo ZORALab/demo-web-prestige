@@ -1,0 +1,47 @@
+[Software]
+Name = 'demo-prestige'
+Command = 'zoralab-demo-prestige'
+ID = 'demo-prestige'
+Version = 'v0.0.1'
+Category = 'devel'
+Suite = ''
+Abstract = "A demo on what ZORALab's Hestia can do for prestige design."
+Description = """
+Since ZORALab's Hestia pitched itself to be very flexible, it's time to test
+it out. This is a demo to force ZORALab's Hestia expands into prestige design
+from scratch while maintaining its performance assurances and reliability.
+"""
+Website = 'https://demo-prestige.zoralab.com/'
+
+
+
+[Software.Contact]
+Name = 'ZORALab Enterprise'
+Email = [ 'hello@zoralab.com' ]
+
+
+
+
+[Software.Maintainers.zoralab]
+Name = 'ZORALab Enterprise'
+Email = [ 'tech@zoralab.com' ]
+[Software.Maintainers.zoralab.JointTime]
+Year = '2023'
+
+
+
+
+[Software.Contributors.zoralab]
+Name = 'ZORALab Enterprise'
+Email = [ 'tech@zoralab.com' ]
+[Software.Contributors.zoralab.JointTime]
+Year = '2023'
+
+
+
+
+[Software.Sponsors.zoralab]
+Name = 'ZORALab Enterprise'
+Email = [ 'tech@zoralab.com' ]
+[Software.Sponsors.zoralab.JointTime]
+Year = '2023'

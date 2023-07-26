@@ -1,0 +1,147 @@
+[Metadata]
+Name = 'GolangCI-Lint'
+Description = """
+Setup GolangCI-Lint static analysis tool for Go Programming Language.
+"""
+Type = 'https-download'
+
+
+
+
+[Variables]
+Version = '1.50.0'
+BaseURL = 'https://github.com/golangci/golangci-lint/releases/download'
+
+[FMTVariables]
+
+
+
+
+# Supported OS and CPU Architectures program sources. The Key for supported
+# OS and CPU complies to the format:
+#	[Sources.{GOOS}-{GOARCH}]
+# Only list out supported packages will do.
+[Sources.all-all]
+Format = 'tar.gz'
+Archive = 'golangci-lint-{{- .Version -}}-{{- .ComputeSystem -}}.{{- .Format -}}'
+URL = '{{- .BaseURL -}}/v{{- .Version -}}/{{- .Archive -}}'
+Method = 'GET'
+[Sources.all-all.Checksum]
+Type = 'sha256'
+Format = 'hex'
+[Sources.all-all.headers]
+
+[Sources.darwin-amd64.Checksum]
+Value = '7ab306b91b0f2bb741cc0a4c86f29f69506eb7b505f47e91b0e74365e4c28c4e'
+
+[Sources.darwin-arm64.Checksum]
+Value = '98209557973b8618086e12eb2449aa5b1187c942807b729fb40d06e0df3583c3'
+
+[Sources.freebsd-386.Checksum]
+Value = '2f856b4300f6909470396c2446f13b2a237d40756541ed27f4c82365f57d2958'
+
+[Sources.freebsd-amd64.Checksum]
+Value = 'a78bb1805cfae8185297d39283ec788c0e43ca67f2692bc333dfb476a52ee121'
+
+[Sources.freebsd-armv6.Checksum]
+Value = '2a7d9727736b192222a9c05789d604c2693cce90e16fe292b4fcbc00f72fe8a6'
+
+[Sources.freebsd-armv7.Checksum]
+Value = '01b083182056a473ced287fd97a961abae689664c562004940ff857e2794723e'
+
+[Sources.linux-386.Checksum]
+Value = '5ac141326e836dd017c1e3dcae90c35f242c87e55028e6767c5681a7acffdf26'
+
+[Sources.linux-amd64.Checksum]
+Value = 'b4b329efcd913082c87d0e9606711ecb57415b5e6ddf233fde9e76c69d9b4e8b'
+
+[Sources.linux-arm64.Checksum]
+Value = 'dbd78c922b62a4d8ede347801cd5f0f61df2c7335ac31d0a570f20805a741855'
+
+[Sources.linux-armv6]
+Archive = 'golangci-lint-{{- .Version -}}-linux-armv6.{{- .Format -}}'
+[Sources.linux-armv6.Checksum]
+Value = 'd4ad794fb6e2c2c86144dfdb74f177dd2175b625798fb764bb0947c841590920'
+
+[Sources.linux-armv7]
+Archive = 'golangci-lint-{{- .Version -}}-linux-armv7.{{- .Format -}}'
+[Sources.linux-armv7.Checksum]
+Value = '279ce90bdd3fc27e326ff809455051615338b156d60b4046224072a0f127e292'
+
+[Sources.linux-mips64.Checksum]
+Value = 'eabbdce3a2e4829874153d65451e3524959af696264b0ce077aa740e6a36c762'
+
+[Sources.linux-mips64le.Checksum]
+Value = '7d96bbd5c32bfbc5aab7e954f72762333cd84d74c015b996a5150ccc7b010a13'
+
+[Sources.linux-ppc64le.Checksum]
+Value = '7ebb9bad8156cbead5c7dc7d0f72287fd8500a84cf2f4fc05cb684c2115777e6'
+
+[Sources.linux-riscv64.Checksum]
+Value = 'cb030b4d892fa7a5b94281aa0be34bea99949b283247f419d8c8146c4c951f1d'
+
+[Sources.linux-s390x.Checksum]
+Value = '9491a9d48b28fa238910ee759cf164b21839d317c0c57cdc44622eb229820cd8'
+
+[Sources.windows-386]
+Format = 'zip'
+[Sources.windows-386.Checksum]
+Value = '4c286f93e27c3733728d1b396b7e051538917ccfab828923d96897158fdc813b'
+
+[Sources.windows-amd64]
+Format = 'zip'
+[Sources.windows-amd64.Checksum]
+Value = 'c906b97b7adbd6435c8635052607bffaf62cddc84312c07fc0a9dc75349fd140'
+
+[Sources.windows-arm64]
+Format = 'zip'
+[Sources.windows-arm64.Checksum]
+Value = 'f789d6c655e5859c25ae5d1dde70967db013e4484d7c64f3d3c7156b6d1c583f'
+
+[Sources.windows-armv6]
+Format = 'zip'
+[Sources.windows-armv6.Checksum]
+Value = 'a2210c52ae40e1cbd7cafca8d8d6df5dca2852fe47e93bce7cdeb145a4ded5b4'
+
+[Sources.windows-armv7]
+Format = 'zip'
+[Sources.windows-armv7.Checksum]
+Value = '90cc905144c6d5f1a28e7f46b5ad2768b2d032443d6376996695aabab6bdfab4'
+
+
+
+
+[[CMD]]
+Name = 'Delete Target for Installation'
+Type = 'delete-recursive-quiet'
+Condition = ['all-all']
+Source = '{{- .BinDir -}}/golangci-lint'
+
+[[CMD]]
+Name = 'Install Golang-CI Linter'
+Type = 'move'
+Condition = [ 'all-all' ]
+Source = '{{- .WorkingDir -}}/golangci-lint-{{- .Version -}}-{{ .SourceCompute }}/golangci-lint'
+Target = '{{- .BinDir -}}/golangci-lint'
+
+
+
+
+[Config]
+linux = """
+#!/bin/bash
+
+_name="golangci-lint"
+
+case $1 in
+--stop)
+	;;
+*)
+	if [ ! -z "$(type -p "$_name")" ]; then
+		1>&2 printf "[ DONE  ] '$_name' is available.\\n"
+	else
+		1>&2 printf "[ ERROR ] '$_name' is missing.\\n"
+	fi
+	;;
+esac
+"""

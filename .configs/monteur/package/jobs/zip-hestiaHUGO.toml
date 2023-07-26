@@ -1,0 +1,109 @@
+[Metadata]
+Name = 'Zip HestiaHUGO'
+Description = """
+Package application into a single .zip package.
+"""
+Type = 'manual'
+
+
+
+
+[Variables]
+Product = 'hestiaHUGO'
+LicenseSourcePath = 'hestia-software-license.pdf'
+
+[FMTVariables]
+LicenseSourceDir = '{{- .RootDir -}}/sites/static/docs/licenses'
+PackageDir = '{{- .WorkingDir -}}/{{- .Product -}}'
+
+
+
+
+[[Dependencies]]
+Name = 'Zip Program for Archive and Compression'
+Conditions = 'all-all'
+Type = 'command'
+Command = 'zip'
+
+
+[[Dependencies]]
+Name = 'GPG Program for Cryptography Certificate Generation'
+Conditions = 'all-all'
+Type = 'command'
+Command = 'gpg'
+
+
+
+
+[Packages.001]
+OS = [ 'all' ]
+Arch = [ 'all' ]
+Name = '{{- .Product -}}-{{- .PkgVersion -}}'
+Distribution = [
+	'stable',
+]
+BuildSource = false
+
+[Packages.001.Files]
+'{{- .PackageDir -}}/hestia' = '{{- .RootDir -}}/{{- .Product -}}'
+
+
+
+
+[[CMD]]
+Name = 'Delete Existing Packaging Directory if Exists'
+Type = 'delete-recursive-quiet'
+Condition = [ 'all-all' ]
+Source = '{{ .PackageDir -}}'
+
+
+[[CMD]]
+Name = 'Make Packaging Directory for New Packaging Job'
+Type = 'create-path'
+Condition = [ 'all-all' ]
+Source = '{{ .PackageDir -}}'
+
+
+[[CMD]]
+Name = 'Copy Source Product into Packaging Directory'
+Type = 'command'
+Condition = [ 'all-all' ]
+Source = 'cp -r "{{- .RootDir -}}/{{- .Product -}}"/* "{{- .PackageDir -}}/."'
+
+
+[[CMD]]
+Name = 'Copy English License File into Packaging Directory'
+Type = 'copy'
+Condition = [ 'all-all' ]
+Source = '{{- .LicenseSourceDir -}}/{{- .LicenseSourcePath -}}'
+Target = '{{- .PackageDir -}}/License-en.pdf'
+
+
+[[CMD]]
+Name = 'Copy English License Signature File into Packaging Directory'
+Type = 'copy'
+Condition = [ 'all-all' ]
+Source = '{{- .LicenseSourceDir -}}/{{- .LicenseSourcePath -}}.asc'
+Target = '{{- .PackageDir -}}/License-en.pdf.asc'
+
+
+[[CMD]]
+Name = 'Compress into Zip'
+Type = 'command'
+Condition = [ 'all-all' ]
+Location = '{{- .WorkingDir -}}'
+Source = 'zip -r "{{- .Product -}}-{{- .App.Version -}}.zip" "{{- .Product -}}"'
+
+
+[[CMD]]
+Name = 'Generate GPG Certificate'
+Type = 'command'
+Condition = [ 'all-all' ]
+Location = '{{- .WorkingDir -}}'
+Source = '''gpg \
+--batch --yes \
+--local-user hello@zoralab.com \
+--armor \
+--detach-sign \
+"{{- .Product -}}-{{- .App.Version -}}.zip" \
+'''
