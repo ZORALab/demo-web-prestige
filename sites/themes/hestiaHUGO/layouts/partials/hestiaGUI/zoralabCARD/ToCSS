@@ -1,0 +1,132 @@
+{{- /*
+Copyright 2022 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2022 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* WARNING: Auto-generated file. DO NOT EDIT! */ -}}
+.card {
+	display: inline-grid;
+	grid: var(--card-layout);
+	overflow: var(--card-overflow);
+
+	margin: var(--card-margin);
+	padding: var(--card-padding);
+
+	width: var(--card-width);
+	max-width: 100%;
+
+	border: var(--card-border);
+	border-radius: var(--card-border-radius);
+
+	color: var(--card-color);
+	background: var(--card-background);
+
+	transition: var(--card-timing);
+}
+
+.card:is(:hover, :focus) {
+	border: (--card-border-focus);
+	filter: var(--card-filter-focus);
+
+	transform: scale(1.1);
+}
+
+:is(.inverted, footer, .footer) .card {
+	border: var(--card-border-inverted);
+}
+
+:is(.inverted, footer, .footer) .card:is(:hover, :focus) {
+	border: (--card-border-inverted-focus);
+	filter: var(--card-filter-inverted-focus);
+}
+
+.card :is(.thumbnail, .content, .actions) {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 0;
+	max-height: max-content;
+}
+
+.card .thumbnail {
+	grid-area: thumbnail;
+	overflow: var(--card-thumbnail-overflow);
+	object-fit: var(--card-thumbnail-object-fit);
+
+	margin: var(--card-thumbnail-margin);
+	padding: var(--card-thumbnail-padding);
+}
+
+.card :is(.thumbnail, picture.thumbnail > img) {
+	width: 100%;
+	height: var(--card-thumbnail-height);
+}
+
+.card .content {
+	grid-area: content;
+	overflow: var(--card-content-overflow);
+
+	width: 100%;
+	height: var(--card-content-height);
+
+	margin: var(--card-content-margin);
+	padding: var(--card-content-padding);
+}
+
+.card .actions {
+	grid-area: actions;
+	overflow: var(--card-actions-overflow);
+
+	width: 100%;
+	height: var(--card-actions-height);
+
+	margin: var(--card-actions-margin);
+	padding: var(--card-actions-padding);
+}
+
+.card :is(.content, .actions) :is(
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6
+) {
+	padding: var(--card-content-padding);
+}
+
+.card :is(.content, .actions) :is(
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6
+):first-child {
+	margin: var(--card-title-margin);
+}
+
+
+@media print {
+	.card {
+		break-inside: avoid;
+
+		box-shadow: var(--card-box-shadow-print) !important;
+
+		color: var(--card-color-print) !important;
+		background: var(--card-background-print) !important;
+
+		filter: none !important;
+		transform: none !important;
+	}
+}

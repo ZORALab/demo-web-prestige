@@ -1,0 +1,93 @@
+{{- /*
+Copyright 2022 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2022 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* INPUT PARAMETERS */ -}}
+{{- /* . = Page data in Hestia Structure */ -}}
+{{- /* .URL.Current = Current Page URL. */ -}}
+{{- /* .URL.Base = Current Page's Base URL. */ -}}
+{{- /* .Formats.Current = Current Page's Format File Type. */ -}}
+{{- /* .Languages.Current = Current Page's Language. */ -}}
+{{- /* .Input.Data = given URL in any form for synthesis. (string) */ -}}
+
+
+
+
+{{- /* prepare working variables for this function */ -}}
+{{- $Page := . -}}
+{{- $Args := dict -}}
+{{- $dataList := dict -}}
+{{- $error := "" -}}
+{{- $ret := false -}}
+{{- $lang := false -}}
+{{- $format := false -}}
+{{- $list := false -}}
+
+
+
+
+{{- /* standardize string data */ -}}
+{{- if partial "hestiaLIST/IsMap" . -}}
+	{{- $ret = default dict .Input -}}
+{{- else -}}
+	{{- $error = printf "hestiaURL.Sanitize: bad input parameters!\n" -}}
+{{- end -}}
+
+{{- if and (not $error) (partial "hestiaLIST/IsMap" $dataList) -}}
+	{{- $ret = default "" $ret.Data -}}
+{{- end -}}
+
+
+
+
+{{- /* sanitize .Input.Data */ -}}
+{{- if partial "hestiaSTRING/IsString" $ret -}}
+	{{- $ret = merge $Page (dict "Input" (dict "Data" $ret)) -}}
+	{{- $ret = partial "hestiaSTRING/Sanitize" $ret -}}
+	{{- if and $ret.Error (not $error) -}}
+		{{- $error = printf "hestiaURL.Sanitize: .Input.Data: %v" $ret.Error -}}
+	{{- end -}}
+
+
+	{{- $ret = dict "Input" (dict "URL" $ret.Output) -}}
+	{{- $Args = merge $Page $ret -}}
+{{- else if partial "hestiaURL/IsURL" $ret -}}
+	{{- $ret = dict "Input" (dict "URL" (string $ret)) -}}
+	{{- $Args = merge $Page $ret -}}
+{{- else -}}
+	{{- $error = printf "hestiaURL.Sanitize: incompatible .Input.Data type '%T'.\n" $ret -}}
+{{- end -}}
+
+
+
+
+{{- /* process the URL */ -}}
+{{- if not $error -}}
+	{{- $dataList = partial "hestiaURL/process" $Args -}}
+{{- end -}}
+
+
+
+
+{{- /* reset output if error occured */ -}}
+{{- if or $error (not $dataList) -}}
+	{{- $dataList = urls.Parse "" -}}
+{{- end -}}
+
+
+
+
+{{- /* render output */ -}}
+{{- return dict "Output" $dataList "Error" $error -}}

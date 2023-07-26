@@ -1,0 +1,56 @@
+# WEBSITE METADATA CONFIGURATIONS
+# ===============================
+# Site-level configurations. It is also complying to Progressive Web App (PWA)
+# usage.
+#
+# Name.ID              - the application unique ID consist of alphanumeric,
+#                        period (.) and dash (-) ONLY. Non-compliant characters
+#                        shall be automatically be removed or replaced with
+#                        dashes. Use sensible reverse domain ID like
+#                        'com.example.app' as it shall be used to uniquely
+#                        identify you across various app stores.
+# Name.SKU             - used in ID and command name (e.g. PWA Protocol). The
+#                        value shall only comply to lowercase ASCII wording.
+# Name.Short           - used in displaying brand and app name. Recommends max 2
+#                        words (e.g. Namespace + product).
+# Name.Full            - used to display brand and app in articles or pages.
+[Name]
+ID = "com.zoralab.hestia"
+SKU = "hestia"
+Short = "Hestia"
+Full = "ZORALab's Hestia"
+
+
+
+
+# Descriptions.Pitch   - Short, on-point, sale-pitch like statement to describe
+#                        your app. Keep it max 160 characters.
+# Descriptions.Summary - Expands from your pitch and elaborate your app. Keep it
+#                        max 250 characters overall (including Pitch if used).
+[Descriptions]
+Pitch = 'Frontend+Backend in One Peaceful Suite; by Developers; for Developers.'
+Summary = """\
+The project is to unify all common libraries and data structure into 1 single
+repository for highest attributes of reusablity, smoother learning curves, and a
+more wholesome tools alignments. Develop and learn advanced products easily with
+less worries about supply chain problems.
+"""
+
+
+
+
+# Site-oriented keywords list used for categorization and keyword searching.
+[Categories]
+List = [
+        'Web',
+        'Tech',
+        'PWA',
+        'WASM',
+        'Software Libraries',
+        'Hugo',
+        'Go',
+        'TinyGo',
+        'Rust',
+        'ZORALab',
+        "ZORALab's Hestia",
+]

@@ -1,0 +1,61 @@
+[CSS.Variables]
+"--tile-layout" = """
+	"thumbnail" minmax(0, var(--tile-thumbnail-height))
+	"content" minmax(0, var(--tile-content-height))
+	"actions" minmax(0, var(--tile-actions-height))
+	/ 100%
+"""
+"--tile-overflow" = "hidden"
+
+"--tile-margin" = "2rem auto"
+"--tile-padding" = "0"
+
+"--tile-width" = "clamp(22rem, 28rem, 32rem)"
+
+"--tile-border" = "none"
+"--tile-border-radius" = "1rem"
+
+"--tile-color" = "var(--body-color)"
+"--tile-color-inverted" = "var(--body-color-inverted)"
+"--tile-color-print" = "var(--body-color-print)"
+"--tile-background" = "var(--body-background)"
+"--tile-background-inverted" = "var(--body-background-inverted)"
+"--tile-background-print" = "var(--body-background-print)"
+
+"--tile-timing" = "var(--timing-normal)"
+
+
+
+
+"--tile-thumbnail-overflow" = "hidden"
+"--tile-thumbnail-object-fit" = "contain"
+
+"--tile-thumbnail-height" = "max-content"
+
+"--tile-thumbnail-margin" = "0"
+"--tile-thumbnail-padding" = "0"
+
+
+
+
+"--tile-content-overflow" = "auto"
+
+"--tile-content-height" = "auto"
+
+"--tile-content-margin" = "0"
+"--tile-content-padding" = "0 1rem"
+
+
+
+
+"--tile-actions-overflow" = "hidden"
+
+"--tile-actions-height" = "max-content"
+
+"--tile-actions-margin" = "0"
+"--tile-actions-padding" = "3.5rem 0"
+
+
+
+
+"--tile-title-margin" = ".3rem auto"

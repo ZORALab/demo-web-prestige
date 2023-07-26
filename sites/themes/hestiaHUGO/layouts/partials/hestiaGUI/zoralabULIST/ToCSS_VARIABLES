@@ -1,0 +1,41 @@
+[CSS.Variables]
+"--ulist-display" = "block"
+"--ulist-margin" = "0"
+"--ulist-padding" = "0 0 0 2rem"
+
+
+"--ulist-text-align" = "left"
+
+
+
+
+"--ulist-li-margin" = "2rem 0"
+"--ulist-li-padding" = "0"
+
+
+
+
+"--ulist-li-before-content" = "\"❡\""
+"--ulist-li-before-display" = "block"
+
+
+"--ulist-li-before-margin" = "0"
+"--ulist-li-before-padding" = "0"
+
+"--ulist-li-before-border" = "1px solid transparent"
+"--ulist-li-before-border-radius" = "50%"
+
+"--ulist-li-before-font-size" = "2.8rem"
+"--ulist-li-before-font-weight" = "800"
+"--ulist-li-before-text-align" = "left"
+
+
+"--ulist-li-before-background-image" = """
+linear-gradient(to bottom, var(--color-primary-200), var(--color-primary-400))
+"""
+"--ulist-li-before-background-image-inverted" = """
+linear-gradient(to bottom, var(--color-primary-200), var(--color-primary-400))
+"""
+"--ulist-li-before-background-image-print" = """
+linear-gradient(to bottom, var(--body-color-print), var(--body-color-print))
+"""

@@ -1,0 +1,33 @@
+[CSS.Variables]
+"--toc-display" = "block"
+
+
+
+"--toc-margin" = "2rem auto"
+"--toc-padding" = "2rem"
+
+
+
+
+"--toc-min-width" = "20rem"
+"--toc-width" = "fit-content"
+"--toc-max-width" = "100%"
+"--toc-min-height" = "initial"
+"--toc-height" = "fit-content"
+"--toc-max-height" = "initial"
+
+
+
+
+"--toc-border" = "1px solid currentColor"
+"--toc-border-radius" = ".5rem"
+
+
+
+
+"--toc-color" = "var(--body-color)"
+"--toc-color-inverted" = "var(--body-color-inverted)"
+"--toc-color-print" = "var(--body-color-print)"
+"--toc-background" = "transparent"
+"--toc-background-inverted" = "transparent"
+"--toc-background-print" = "transparent"

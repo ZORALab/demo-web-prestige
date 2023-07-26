@@ -1,0 +1,119 @@
+{{- /*
+Copyright 2022 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2022 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* WARNING: Auto-generated file. DO NOT EDIT! */ -}}
+.tile {
+	display: inline-grid;
+	grid: var(--tile-layout);
+	overflow: var(--tile-overflow);
+
+	margin: var(--tile-margin);
+	padding: var(--tile-padding);
+
+	width: var(--tile-width);
+	max-width: 100%;
+
+	border: var(--tile-border);
+	border-radius: var(--tile-border-radius);
+
+	color: var(--tile-color);
+	background: var(--tile-background);
+
+	transition: var(--tile-timing);
+}
+
+:is(.inverted, footer, .footer) .tile {
+	border: var(--tile-border-inverted);
+	color: var(--tile-color-inverted);
+	background: var(--tile-background-inverted);
+}
+
+.tile :is(.thumbnail, .content, .actions) {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 0;
+	max-height: max-content;
+}
+
+.tile .thumbnail {
+	grid-area: thumbnail;
+	overflow: var(--tile-thumbnail-overflow);
+	object-fit: var(--tile-thumbnail-object-fit);
+
+	margin: var(--tile-thumbnail-margin);
+	padding: var(--tile-thumbnail-padding);
+}
+
+.tile :is(.thumbnail, picture.thumbnail > img) {
+	width: 100%;
+	height: var(--tile-thumbnail-height);
+}
+
+.tile .content {
+	grid-area: content;
+	overflow: var(--tile-content-overflow);
+
+	width: 100%;
+	height: var(--tile-content-height);
+
+	margin: var(--tile-content-margin);
+	padding: var(--tile-content-padding);
+}
+
+.tile .actions {
+	grid-area: actions;
+	overflow: var(--tile-actions-overflow);
+
+	width: 100%;
+	height: var(--tile-actions-height);
+
+	margin: var(--tile-actions-margin);
+	padding: var(--tile-actions-padding);
+}
+
+.tile :is(.content, .actions) :is(
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6
+) {
+	padding: var(--tile-content-padding);
+}
+
+.tile :is(.content, .actions) :is(
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6
+):first-child {
+	margin: var(--tile-title-margin);
+}
+
+
+@media print {
+	.tile {
+		break-inside: avoid;
+
+		box-shadow: var(--tile-box-shadow-print) !important;
+
+		color: var(--tile-color-print) !important;
+		background: var(--tile-background-print) !important;
+	}
+}

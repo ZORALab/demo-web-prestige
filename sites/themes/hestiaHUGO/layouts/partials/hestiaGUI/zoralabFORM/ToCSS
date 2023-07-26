@@ -1,0 +1,465 @@
+{{- /*
+Copyright 2022 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2022 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* WARNING: Auto-generated file. DO NOT EDIT! */ -}}
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	gap: 0;
+
+	min-width: var(--form-min-width);
+	width: var(--form-width);
+	max-width: var(--form-max-width);
+	min-height: var(--form-min-height);
+	height: var(--form-height);
+	max-height: var(--form-max-height);
+
+	margin: var(--form-margin);
+	padding: var(--form-padding);
+
+	color: var(--form-color);
+	background: var(--form-background);
+
+	transition: var(--form-timing);
+}
+
+:is(.inverted, footer, .footer) form {
+	color: var(--form-color-inverted);
+	background: var(--form-background-inverted);
+}
+
+form fieldset {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	opacity: 1;
+
+	margin: var(--form-fieldset-margin);
+	padding: var(--form-fieldset-padding);
+
+	min-width: var(--form-fieldset-min-width);
+	width: var(--form-fieldset-width);
+	max-width: var(--form-fieldset-max-width);
+	min-height: var(--form-fieldset-min-height);
+	height: var(--form-fieldset-height);
+	max-height: var(--form-fieldset-max-height);
+
+	border: var(--form-fieldset-border);
+	border-radius: var(--form-fieldset-border-radius);
+}
+
+form fieldset legend {
+	opacity: 1;
+
+	margin: var(--form-fieldset-legend-margin);
+
+	font-size: var(--form-fieldset-legend-font-size);
+	font-weight: var(--form-fieldset-legend-font-weight);
+	text-transform: var(--form-fieldset-legend-text-transform);
+	text-align: var(--form-fieldset-legend-text-align);
+
+	color: var(--form-color-primary);
+	background: var(--form-background);
+}
+
+:is(.inverted, footer, .footer) form fieldset legend {
+	color: var(--form-color-primary-inverted);
+	background: var(--form-background-inverted);
+}
+
+form label {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	position: relative;
+
+	min-width: var(--form-label-min-width);
+	width: var(--form-label-width);
+	max-width: var(--form-label-max-width);
+	min-height: var(--form-label-min-height);
+	height: var(--form-label-height);
+	max-height: var(--form-label-max-height);
+
+	margin: var(--form-label-margin);
+	padding: var(--form-label-padding);
+
+	font-size: var(--form-label-font-size);
+	font-style: var(--form-label-font-style);
+	font-weight: var(--form-label-font-weight);
+	text-align: var(--form-label-text-align);
+	text-transform: var(--form-label-text-transform);
+	vertical-align: middle;
+
+	color: var(--form-color);
+	background: var(--form-background);
+}
+
+:is(.inverted, footer, .footer) form label {
+	color: var(--form-color-inverted);
+	background: var(--form-background-inverted);
+}
+
+form :is(input[type], select, textarea) {
+	display: var(--form-field-display);
+	opacity: var(--form-field-opacity);
+
+	min-width: var(--form-field-min-width);
+	width: var(--form-field-width);
+	max-width: var(--form-field-max-width);
+	min-height: var(--form-field-min-height);
+	height: var(--form-field-height);
+	max-height: var(--form-field-max-height);
+
+	margin: var(--form-field-margin);
+	padding: var(--form-field-padding);
+
+	border: var(--form-field-border);
+	border-radius: var(--form-field-border-radius);
+
+	font-family: var(--form-field-font-family);
+	font-size: var(--form-field-font-size);
+	font-style: var(--form-field-font-style);
+	font-weight: var(--form-field-font-weight);
+	text-transform: var(--form-field-text-transform);
+	text-align: var(--form-field-text-align);
+
+	color: var(--form-color);
+	background: var(--form-background-valid);
+
+	transition: var(--form-timing);
+}
+
+form input[type='datetime-local'] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+:is(.inverted, footer, .footer) form :is(input[type], select, textarea) {
+	color: var(--form-color-inverted);
+}
+
+form :is(input[type], select, textarea)::placeholder {
+	font-family: var(--form-field-font-family);
+	font-size: var(--form-field-font-size);
+	font-style: var(--form-field-placeholder-font-style);
+	font-weight: var(--form-field-font-weight);
+	text-transform: var(--form-field-text-transform);
+	text-align: var(--form-field-text-align);
+
+	color: color-mix(in srgb, var(--form-color) 50%, #fff);
+	background: transparent;
+}
+
+form :is(input[type], select, textarea):disabled {
+	opacity: var(--form-field-opacity-disabled);
+}
+
+form :is(input[type], select, textarea):enabled:valid {
+	color: var(--form-color-valid);
+	border-color: var(--form-color-valid);
+	background: var(--form-background-valid);
+}
+
+form :is(input[type], select, textarea):enabled:valid::placeholder {
+	color: color-mix(in srgb, var(--form-color-invalid) 50%, #fff);
+}
+
+form :is(input[type], select, textarea):enabled:valid ~ * {
+	color: var(--form-color-valid);
+	border-color: transparent;
+}
+
+form :is(input[type], select, textarea):enabled:invalid {
+	color: var(--form-color-invalid);
+	border-color: var(--form-color-invalid);
+	background: var(--form-background-invalid);
+}
+
+form :is(input[type], select, textarea):enabled:invalid::placeholder {
+	color: color-mix(in srgb, var(--form-color-invalid) 50%, #fff);
+}
+
+form :is(input[type], select, textarea):enabled:invalid ~ * {
+	color: var(--form-color-invalid);
+	border-color: var(--form-color-invalid);
+}
+
+form :is(input[type], select, textarea):enabled:is(:hover, :focus),
+form :is(input[type], select, textarea):enabled:is(:hover, :focus) ~ * {
+	color: var(--form-color-focus);
+	border-color: var(--form-color-focus);
+	background: var(--form-background-focus);
+}
+
+form :is(input[type], select, textarea):enabled:focus::placeholder {
+	color: transparent;
+}
+
+form optgroup {
+	margin: var(--form-optgroup-margin);
+	padding: var(--form-optgroup-padding);
+
+	font-style: var(--form-optgroup-font-style);
+	text-align: var(--form-optgroup-text-align);
+}
+
+form optgroup:first-child {
+	margin-top: 0;
+}
+
+form option {
+	padding: var(--form-option-padding);
+}
+
+form option:checked {
+	color: var(--form-color-primary);
+	background: color-mix(in srgb, currentColor 40%, #fff);
+}
+
+form option:is(:hover, :focus) {
+	background: color-mix(in srgb, var(--form-background-focus) 50%, #fff);
+}
+
+form input[type='color'] {
+	padding: var(--form-color-picker-padding);
+	height: var(--form-color-picker-height);
+	width: var(--form-color-picker-width);
+}
+
+form :is(input[type='checkbox'], input[type='radio']) {
+	box-shadow: none;
+}
+
+form label :is(input[type='radio'], input[type='checkbox'], input[type='file']) {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	margin: 0;
+	padding: 0;
+
+	min-width: 100%;
+	max-width: 100%;
+
+	min-height: 100%;
+	max-height: 100%;
+
+	opacity: 0;
+
+	z-index: -1;
+}
+
+form :is(input[type='radio'], input[type='checkbox']) + * {
+	display: grid;
+	align-items: center;
+	justify-items: start;
+	column-gap: var(--form-toggle-spacing);
+
+	position: relative;
+
+	margin: var(--form-switchbox-margin);
+	padding: var(--form-toggle-spacing);
+
+	border: 2px solid transparent;
+	border-radius: var(--form-field-border-radius);
+}
+
+form :is(input[type='radio'], input[type='checkbox']):is(:hover, :focus) + * {
+	border-color: var(--form-color-focus);
+}
+
+form input[type='checkbox'] + * {
+	grid: "toggle text" minmax(0, max-content)
+		/
+		minmax(0, var(--form-switchbox-toggle-width)) minmax(0, auto);
+}
+
+form input[type='checkbox'] + *:before,
+form input[type='checkbox'] + *:after {
+	content: '';
+	grid-area: toggle;
+	align-self: start;
+
+	position: relative;
+	top: 50%;
+
+	transition: var(--form-switchbox-timing);
+
+	transform: translateY(-50%);
+}
+
+form input[type='checkbox'] + *:before {
+	left: 0;
+
+	border-radius: calc(var(--form-switchbox-toggle-width) / 2);
+
+	min-width: var(--form-switchbox-toggle-width);
+	min-height: calc(var(--form-switchbox-toggle-width) / 2);
+
+	background: var(--form-switchbox-background-off);
+}
+
+form input[type='checkbox']:checked + *:before {
+	background: var(--form-switchbox-background-on);
+}
+
+form input[type='checkbox'] + *:after {
+	left: 6%;
+
+	border-radius: 50%;
+
+	min-width: calc((var(--form-switchbox-toggle-width) / 2)*.8);
+	min-height: calc((var(--form-switchbox-toggle-width) / 2)*.8);
+
+	background: white;
+}
+
+form input[type='checkbox']:checked + *:after {
+	left: 54%;
+}
+
+form input[type='radio'] + * {
+	grid: "toggle text" minmax(0, max-content)
+		/
+		minmax(0, var(--form-radio-toggle-width)) minmax(0, auto);
+}
+
+form input[type='radio'] + *:before,
+form input[type='radio'] + *:after {
+	content: '';
+	grid-area: toggle;
+
+	position: relative;
+	top: 0;
+	left: 50%;
+
+	border-radius: 50%;
+
+	transition: var(--form-radio-timing);
+	transform: translateX(-50%);
+}
+
+form input[type='radio'] + *:before {
+	min-width: var(--form-radio-toggle-width);
+	max-width: 100%;
+	min-height: var(--form-radio-toggle-width);
+	max-height: 100%;
+
+	background: var(--form-color-primary);
+}
+
+:is(.inverted, footer, .footer) form input[type='radio'] + *:before {
+	background: var(--form-color-primary-inverted);
+}
+
+form input[type='radio'] + *:after {
+	min-width: calc(var(--form-radio-toggle-width)*.8);
+	min-height: calc(var(--form-radio-toggle-width)*.8);
+
+	background: white;
+}
+
+form input[type='radio']:checked + *:after {
+	min-width: calc(var(--form-radio-toggle-width)*.2);
+	min-height: calc(var(--form-radio-toggle-width)*.2);
+}
+
+form :is(label input[type='file'] + *, input[type='submit'], input[type='button']) {
+	display: var(--form-button-display);
+
+	margin: var(--form-button-margin);
+	padding: var(--form-button-padding);
+
+	width: var(--form-button-width);
+
+	border: var(--form-button-border);
+	border-radius: var(--form-button-border-radius);
+
+	font-weight: var(--form-button-font-weight);
+	text-align: var(--form-button-text-align);
+	text-transform: var(--form-button-text-transform);
+
+	color: var(--form-color-primary);
+	background: color-mix(in srgb, var(--form-color-primary) 10%, #fff);
+	box-shadow: var(--form-box-shadow);
+
+	transition: var(--form-button-timing);
+}
+
+:is(.inverted, footer, .footer) form :is(
+	label input[type='file'] + *,
+	input[type='submit'],
+	input[type='button']
+) {
+	color: var(--form-color-primary-inverted);
+	box-shadow: var(--form-box-shadow-inverted);
+}
+
+form :is(
+	label input[type='file']:enabled:valid + *,
+	input[type='submit']:enabled:valid,
+	input[type='button']:enabled:valid
+) {
+	border-color: var(--form-color-valid);
+	background: color-mix(in srgb, var(--form-color-valid) 10%, #fff);
+}
+
+form :is(
+	label input[type='file']:enabled:invalid + *,
+	input[type='submit']:enabled:invalid,
+	input[type='button']:enabled:invalid
+) {
+	background: color-mix(in srgb, var(--form-color-invalid) 10%, #fff);
+}
+
+form :is(
+	label input[type='file']:enabled:is(:hover, :focus) + *,
+	input[type='submit']:enabled:is(:hover, :focus),
+	input[type='button']:enabled:is(:hover, :focus)
+) {
+	transform: scale(1.1);
+}
+
+form :is(
+	label input[type='file']:is(:enabled:active, :disabled) + *,
+	input[type='submit']:is(:enabled:active, :disabled),
+	input[type='button']:is(:enabled:active, :disabled)
+) {
+	box-shadow: none;
+}
+
+@media print {
+	form,
+	form *,
+	input,
+	textarea,
+	select,
+	label {
+		color: var(--form-color-print) !important;
+		border-color: var(--form-color-print) !important;
+		background: var(--form-background-print) !important;
+	}
+
+	fieldset {
+		break-inside: avoid;
+	}
+}

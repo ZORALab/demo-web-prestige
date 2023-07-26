@@ -1,0 +1,99 @@
+{{- /*
+Copyright 2022 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2022 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* INPUT PARAMETERS */ -}}
+{{- /* . = Page data in Hestia Structure */ -}}
+{{- /* .Input.Data = file contents in full (string) */ -}}
+{{- /* .Input.Path = file path to write into (string) */ -}}
+
+
+
+
+{{- /* prepare working variables for this function */ -}}
+{{- $Page := . -}}
+{{- $data := dict -}}
+{{- $path := false -}}
+{{- $error := "" -}}
+
+
+
+
+{{- /* safely query .Input.Data and .Input.Path */ -}}
+{{- if partial "hestiaLIST/IsMap" . -}}
+	{{- $data = default dict .Input -}}
+{{- else -}}
+	{{- $error = printf "hestiaFS.WriteFile: bad input parameters!\n" -}}
+{{- end -}}
+
+
+{{- $path = "" -}}
+{{- if and (not $error) (partial "hestiaLIST/IsMap" $data) -}}
+	{{- $path = default "" $data.Path -}}
+	{{- $data = default "" $data.Data -}}
+{{- end -}}
+
+{{- if not $data -}}
+	{{- $data = "" -}}
+{{- end -}}
+
+
+
+{{- /* sanitize .Input.Path */ -}}
+{{- if not $error -}}
+	{{- if (partial "hestiaSTRING/IsString" $path) -}}
+		{{- /* PASS */ -}}
+	{{- else -}}
+		{{- if not $error -}}
+			{{- $error = printf
+				"hestiaFS.WriteFile: invalid .Input.Path '%v'.\n"
+				$path
+			-}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+
+
+
+
+{{- /* sanitize .Input.Data */ -}}
+{{- if not $error -}}
+	{{- if (partial "hestiaSTRING/IsString" $data) -}}
+		{{- /* PASS */ -}}
+	{{- else -}}
+		{{- if not $error -}}
+			{{- $error = printf
+				"hestiaFS.WriteFile: invalid data '%v'.\n"
+				$data
+			-}}
+		{{- end -}}
+		{{- $data = "" -}}
+	{{- end -}}
+{{- end -}}
+
+
+
+
+{{- /* write file */ -}}
+{{- if and (not $error) $path -}}
+	{{- $path = resources.FromString $path $data -}}
+	{{- $path = urls.Parse $path.Permalink -}}
+{{- end -}}
+
+
+
+
+{{- /* render output */ -}}
+{{- return dict "Output" $path "Error" $error -}}

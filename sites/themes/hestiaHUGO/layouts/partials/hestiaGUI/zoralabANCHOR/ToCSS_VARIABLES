@@ -1,0 +1,51 @@
+[CSS.Variables]
+"--anchor-display" = "inline-block"
+
+"--anchor-margin" = "initial"
+"--anchor-padding" = "0 .15rem"
+
+"--anchor-min-width" = "initial"
+"--anchor-width" = "initial"
+"--anchor-max-width" = "100%"
+"--anchor-min-height" = "initial"
+"--anchor-height" = "initial"
+"--anchor-max-height" = "initial"
+
+"--anchor-border" = "initial"
+"--anchor-border-top" = "2px solid transparent"
+"--anchor-border-left" = "2px solid transparent"
+"--anchor-border-bottom" = "2px solid var(--anchor-color)"
+"--anchor-border-right" = "2px solid transparent"
+"--anchor-border-radius" = ".3rem"
+
+"--anchor-font-size" = "var(--body-font-size)"
+"--anchor-font-family" = "var(--body-font-family)"
+"--anchor-font-weight" = "initial"
+"--anchor-text-decoration" = "none"
+"--anchor-text-transform" = "normal"
+"--anchor-overflow-wrap" = "break-word"
+"--anchor-overflow-wrap-print" = "break-word"
+"--anchor-letter-spacing" = "initial"
+"--anchor-line-height" = "var(--body-line-height)"
+"--anchor-text-align" = "initial"
+
+"--anchor-color" = "var(--color-primary-300)"
+"--anchor-color-inverted" = "var(--color-primary-200)"
+"--anchor-color-print" = "var(--body-color-print)"
+"--anchor-text-decoration-color" = "var(--anchor-color)"
+"--anchor-background" = "transparent"
+"--anchor-background-focus" = "color-mix(in srgb, var(--anchor-color) 10%, #fff)"
+"--anchor-background-print" = "transparent"
+"--anchor-box-shadow" = "0 .5rem 1rem transparent"
+"--anchor-box-shadow-focus" = "0 .5rem 1rem var(--color-typography-800)"
+
+"--anchor-transition" = "var(--timing-rapid)"
+"--anchor-transform-focus" = "scale(1.1)"
+
+
+
+
+"--anchor-prestige-font-weight" = "800"
+"--anchor-prestige-text-transform" = "uppercase"
+
+"--anchor-prestige-color" = "var(--color-contrast-300)"

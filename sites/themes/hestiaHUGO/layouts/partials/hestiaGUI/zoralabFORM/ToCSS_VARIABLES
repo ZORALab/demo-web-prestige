@@ -1,0 +1,169 @@
+[CSS.Variables]
+"--form-margin" = "2rem auto"
+"--form-padding" = ".5rem"
+"--form-toggle-spacing" = "1rem"
+
+"--form-min-width" = "initial"
+"--form-width" = "auto"
+"--form-max-width" = "100%"
+"--form-min-height" = "initial"
+"--form-height" = "auto"
+"--form-max-height" = "initial"
+
+"--form-color" = "var(--body-color)"
+"--form-color-inverted" = "var(--body-color-inverted)"
+"--form-color-primary" = "var(--color-primary-400)"
+"--form-color-primary-inverted" = "var(--color-primary-300)"
+"--form-color-valid" = "var(--body-color-indicator-green)"
+"--form-color-invalid" = "var(--body-color-indicator-red)"
+"--form-color-focus" = "var(--color-primary-400)"
+"--form-color-print" = "var(--body-color-print)"
+"--form-background" = "transparent"
+"--form-background-inverted" = "transparent"
+"--form-background-valid" = "var(--body-background-indicator-green)"
+"--form-background-invalid" = "var(--body-background-indicator-red)"
+"--form-background-focus" = "var(--body-background-indicator-yellow)"
+"--form-background-print" = "transparent"
+"--form-box-shadow" = "0 .5rem 1rem var(--form-color)"
+"--form-box-shadow-inverted" = "0 .5rem 1rem var(--form-color-inverted)"
+
+"--form-timing" = "var(--timing-normal)"
+
+
+
+
+"--form-fieldset-margin" = "1rem"
+"--form-fieldset-padding" = "0"
+
+"--form-fieldset-min-width" = "initial"
+"--form-fieldset-width" = "auto"
+"--form-fieldset-max-width" = "100%"
+"--form-fieldset-min-height" = "initial"
+"--form-fieldset-height" = "auto"
+"--form-fieldset-max-height" = "initial"
+
+"--form-fieldset-border" = "none"
+"--form-fieldset-border-radius" = ".5rem"
+
+
+
+
+"--form-fieldset-legend-margin" = "2rem"
+
+"--form-fieldset-legend-font-size" = "2rem"
+"--form-fieldset-legend-font-weight" = "700"
+"--form-fieldset-legend-text-transform" = "uppercase"
+"--form-fieldset-legend-text-align" = "left"
+
+
+
+
+"--form-label-display" = "block"
+
+"--form-label-min-width" = "5rem"
+"--form-label-width" = "100%"
+"--form-label-max-width" = "100%"
+"--form-label-min-height" = "initial"
+"--form-label-height" = "max-content"
+"--form-label-max-height" = "initial"
+
+"--form-label-margin" = "0 auto"
+"--form-label-padding" = "0"
+
+"--form-label-font-size" = "1.6rem"
+"--form-label-font-style" = "normal"
+"--form-label-font-weight" = "700"
+"--form-label-text-transform" = "titlecase"
+"--form-label-text-align" = "left"
+
+
+
+
+"--form-field-display" = "block"
+"--form-field-opacity" = "1"
+"--form-field-opacity-disabled" = ".3"
+
+"--form-field-margin" = "0 auto"
+"--form-field-padding" = "1rem"
+
+"--form-field-min-width" = "5rem"
+"--form-field-width" = "100%"
+"--form-field-max-width" = "100%"
+"--form-field-min-height" = "initial"
+"--form-field-height" = "initial"
+"--form-field-max-height" = "initial"
+
+"--form-field-border" = "2px solid currentColor"
+"--form-field-border-radius" = ".2rem"
+
+"--form-field-font-family" = "var(--body-font-family)"
+"--form-field-font-size" = "var(--body-font-size)"
+"--form-field-font-style" = "normal"
+"--form-field-placeholder-font-style" = "italic"
+"--form-field-font-weight" = "initial"
+"--form-field-text-transform" = "initial"
+"--form-field-text-align" = "left"
+
+
+
+
+"--form-optgroup-margin" = "2rem 1rem 0"
+"--form-optgroup-padding" = "0"
+
+"--form-optgroup-font-style" = "italic"
+"--form-optgroup-text-align" = "left"
+
+
+
+
+"--form-option-padding" = "0 0 0 1.5rem"
+
+"--form-option-font-style" = "normal"
+"--form-option-text-align" = "left"
+
+
+
+
+"--form-color-picker-padding" = "0"
+
+"--form-color-picker-width" = "100%"
+"--form-color-picker-height" = "5rem"
+
+
+
+
+"--form-switchbox-margin" = "1rem 0"
+
+"--form-switchbox-toggle-width" = "70px"
+
+"--form-switchbox-background-off" = "#a8a8a8"
+"--form-switchbox-background-on" = "var(--form-color-valid)"
+
+
+"--form-switchbox-timing" = "var(--timing-normal)"
+
+
+
+
+"--form-radio-toggle-width" = "30px"
+
+"--form-radio-timing" = "var(--timing-normal)"
+
+
+
+
+"--form-button-display" = "inline-block"
+
+"--form-button-margin" = ".5rem 1.2rem"
+"--form-button-padding" = "1.3rem"
+
+"--form-button-width" = "100%"
+
+"--form-button-border" = "2px solid currentColor"
+"--form-button-border-radius" = ".5rem"
+
+"--form-button-font-weight" = "700"
+"--form-button-text-transform" = "uppercase"
+"--form-button-text-align" = "center"
+
+"--form-button-timing" = "var(--timing-rapid)"

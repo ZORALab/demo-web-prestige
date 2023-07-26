@@ -1,0 +1,99 @@
+{{- /*
+Copyright 2023 "Holloway" Chew, Kean Ho <kean.ho.chew@zoralab.com>
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+                 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+*/ -}}
+{{- /* INPUT PARAMETERS */ -}}
+{{- /* . = data in Hestia data structure */ -}}
+{{- /* .Input.Data = CSS data structure for rendering (dict) */ -}}
+{{- /* .Input.Data.Inline = List of CSS data fragments (slice) */ -}}
+{{- /* .Input.Data.Inline.N = CSS data fragment (string) */ -}}
+{{- /* .Input.Data.Variables = List of CSS variables (dict) */ -}}
+{{- /* .Input.Data.Variables.[NAME:VALUE] = CSS variables' name and value (string:any) */ -}}
+
+
+
+
+{{- /* prepare variables for this function */ -}}
+{{- $Page := . -}}
+{{- $dataList := "" -}}
+{{- $error := "" -}}
+{{- $list := dict -}}
+{{- $ret := dict -}}
+{{- $input := dict -}}
+
+
+
+
+{{- /* get valid input data before proceeding */ -}}
+{{- $input = default dict .Input -}}
+{{- if $input -}}
+	{{- $input = default dict $input.Data -}}
+{{- end -}}
+{{- if not $input -}}
+	{{- $error = printf "hestiaCSS.ToString: missing .Input.Data!\n" -}}
+	{{- $input = dict -}}
+{{- end -}}
+
+
+
+
+{{- /* render CSS variables */ -}}
+{{- if and $input (not $error) -}}
+	{{- $list = default dict $input.Variables -}}
+	{{- range $k, $v := $list -}}
+		{{- $dataList = printf "%s\t\t%s: %v;\n" $dataList $k $v -}}
+	{{- end -}}
+	{{- if $dataList -}}
+		{{- $dataList = printf ":root{\n%s\n}\n\n" $dataList -}}
+	{{- end -}}
+{{- end -}}
+
+
+
+
+{{- /* render CSS Inline values */ -}}
+{{- if and $input (not $error) -}}
+	{{- $list = default slice $input.Inline -}}
+	{{- range $k, $v := $list -}}
+		{{- $dataList = printf "%s%s" $dataList $v -}}
+	{{- end -}}
+{{- end -}}
+
+
+
+
+{{- /* post-process output */ -}}
+{{- if and $dataList (not $error) -}}
+	{{- $ret = printf "deletable-inline-%s.css" (sha256 $dataList) -}}
+	{{- $ret = resources.FromString $ret $dataList -}}
+	{{- if not .IsServerMode -}}
+		{{- $ret = resources.Minify $ret -}}
+	{{- end -}}
+	{{- $dataList = string $ret.Content -}}
+{{- end -}}
+
+
+
+
+{{- /* reset value if error is found */ -}}
+{{- if $error -}}
+	{{- $dataList = "" -}}
+{{- end -}}
+
+
+
+
+{{- /* render output */ -}}
+{{- return dict "Output" $dataList "Error" $error -}}

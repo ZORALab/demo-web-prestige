@@ -1,0 +1,33 @@
+[CSS.Variables]
+"--table-display" = "block"
+"--table-overflow" = "auto"
+
+"--table-margin" = "2rem auto"
+"--table-padding" = "0"
+
+"--table-min-width" = "initial"
+"--table-max-width" = "100%"
+"--table-min-height" = "initial"
+"--table-max-height" = "initial"
+
+"--table-border" = "1px solid var(--table-color-primary)"
+
+"--table-color" = "var(--body-color)"
+"--table-color-header" = "var(--color-typography-100)"
+"--table-color-primary" = "var(--color-primary-300)"
+"--table-color-print" = "var(--body-color-print)"
+"--table-background" = "var(--body-background)"
+"--table-background-header-row" = "var(--color-primary-900)"
+"--table-background-header-column" = "var(--color-primary-700)"
+"--table-background-odd" = "transparent"
+"--table-background-even" = "var(--color-primary-50)"
+"--table-background-focus" = "var(--color-contrast-500)"
+"--table-background-print" = "var(--body-background-print)"
+
+
+
+
+"--table-cell-margin" = "0"
+"--table-cell-padding" = "1rem"
+
+"--table-cell-border" = "var(--table-border)"
