@@ -1,6 +1,6 @@
 # CONFIGURE THESE DATA
 # ====================
-baseURL = "https://hestia.zoralab.com"
+baseURL = "https://prestige-demo.zoralab.com"
 theme = [
 	"hestiaHUGO",
 ]
@@ -12,6 +12,7 @@ assetDir = "assets"
 dataDir = "data"
 staticDir = [
 	"static",
+	"fonts/fontkaiFONT_KAISEIDECOL",
 ]
 layoutDir = "layouts"
 themesDir = "themes"
