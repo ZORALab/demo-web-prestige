@@ -43,10 +43,9 @@ Keywords = [
 #   4. All fields shall have their whitespace cleansed during the processing.
 [Description]
 Pitch = '''
-Quickly & reliably express your creativity freedom easily via ZORALab's Hestia!
+Redirecting to your language; Please stand-by...
 '''
 Summary = '''
-Quality assured.
 '''
 
 
@@ -67,7 +66,7 @@ URL = ''
 Enabled = false
 
 [Redirect.Language]
-Enabled = false
+Enabled = true
 
 
 
@@ -80,16 +79,16 @@ Enabled = false
 #   2. If you're sourcing from static directory, prefix 'static/'.
 #   3. If you're sourcing from partial directory, prefix 'layouts/partials/'.
 [Sources]
-HTML = 'layouts/content/landing/index.html'
-JSON = 'layouts/content/landing/index.json'
-LDJSON = 'layouts/content/landing/index.ldjson'
-CSS = 'layouts/content/landing/index.css'
-JS = 'layouts/content/landing/index.js'
-Contributors = 'layouts/content/landing/contributors.toml'
-Thumbnails = 'layouts/content/landing/thumbnails.toml'
-Languages = 'layouts/content/landing/languages.toml'
-Assets = 'layouts/content/landing/assets.toml'
-Components = 'layouts/content/landing/components.toml'
+HTML = 'layouts/content/redirect/index.html'
+JSON = 'layouts/content/redirect/index.json'
+LDJSON = 'layouts/content/redirect/index.ldjson'
+CSS = 'layouts/content/redirect/index.css'
+JS = 'layouts/content/redirect/index.js'
+Contributors = 'layouts/content/redirect/contributors.toml'
+Thumbnails = 'layouts/content/redirect/thumbnails.toml'
+Languages = '__languages.toml'
+Assets = 'layouts/content/redirect/assets.toml'
+Components = 'layouts/content/redirect/components.toml'
 
 
 
@@ -112,5 +111,3 @@ Components = 'layouts/content/landing/components.toml'
 #
 #                             [[data]]
 #                             Filename = 'file2.toml'
-[[Data]]
-Filename = '__i18n.toml'
