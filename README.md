@@ -1,3 +1,5 @@
+[![Prestige](resources/logos/logo-1200x335.svg)](https://github.com/ZORALab/demo-web-prestige)
+
 # Prestige Web Demo
 Since the release of ZORALab's Hestia, we want to make sure its offering and
 pitches are tested and can reliably delivers a good outcome. So, this is the
