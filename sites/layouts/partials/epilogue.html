@@ -1,0 +1,58 @@
+{{- /*
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Prestige Web Demo Proprietary License
+
+Licensed under ZORALab Proprietary License (the “License”); you may ONLY use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+        https://www.zoralab.com/docs/legal/zoralab-proprietary-license
+
+All information contained herein is, and remains the property of ZORALab
+Enterprise and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to ZORALab Enterprise and its suppliers and
+may be covered by Malaysia Patent Law, patents in process, and are protected by
+trade secret or copyright law. Dissemination of this information or reproduction
+of this material is strictly forbidden unless prior written permission is
+obtained from ZORALab Enterprise.
+*/ -}}
+{{- /* prepare variables for function */ -}}
+{{- $Page := . -}}
+{{- $lang := index $Page.Data.Store.Epilogue.Languages $Page.Languages.Current.ID -}}
+{{- $ret := false -}}
+
+
+
+
+{{- /* render output */ -}}
+{{- $ret = strings.TrimRight "/" $Page.URL.Base -}}
+{{- $ret = printf "%s/%s" $ret "/img/backgrounds/friendly-discussion-platform-2048x1075.jpg" }}
+	<section id='{{- $lang.ID -}}' class='inverted' style='
+		margin-top: 10rem;
+		background:	linear-gradient(to bottom,
+					rgba(0, 0, 0, .15),
+					rgba(0, 0, 0, .95)
+				),
+				url({{- $ret -}})
+				no-repeat
+				fixed;
+		background-position: center center;
+		background-size: cover;
+		padding-bottom: var(--main-padding-top);
+	'>
+		<h2 style='color: #fafafa;'>{{- $lang.Title -}}</h2>
+		<p style='color: #fafafa;'>{{- $lang.Description -}}</p>
+		<br/>
+{{- range $unused, $v := $lang.URL }}
+	{{- if not (or $v.Value $v.Label) }}
+		{{- continue -}}
+	{{- end }}
+
+	{{- $ret = merge $Page (dict "Input" (dict "Data" $v.Value)) -}}
+	{{- $ret = partial "hestiaURL/Sanitize" $ret -}}
+	{{- $ret = string $ret.Output }}
+		<a href='{{- $ret -}}' class='button pill'>{{- $v.Label -}}</a>
+{{- end }}
+	</section>
