@@ -1,0 +1,51 @@
+[CSS.Variables]
+"--card-overflow" = "hidden"
+
+"--card-margin" = "auto"
+"--card-padding" = "0"
+
+"--card-width" = "clamp(22rem, 60rem, 100rem)"
+"--card-min-height" = "50rem"
+
+"--card-border" = "1px solid var(--color-typography-200)"
+"--card-border-radius" = ".25rem"
+
+"--card-color" = "var(--body-color)"
+"--card-color-print" = "var(--body-color-print)"
+"--card-background" = "var(--body-background)"
+"--card-background-print" = "var(--body-background-print)"
+
+"--card-timing" = "var(--timing-normal)"
+
+
+
+
+"--card-thumbnail-overflow" = "hidden"
+"--card-thumbnail-object-fit" = "cover"
+
+
+
+
+"--card-content-justify-content" = "center"
+"--card-content-align-items" = "center"
+"--card-content-overflow" = "auto"
+
+"--card-content-height" = "auto"
+
+"--card-content-margin" = "0"
+"--card-content-padding" = "4rem 1rem 1rem"
+
+"--card-content-color" = "var(--color-typography-100)"
+"--card-content-background" = """
+linear-gradient(to top,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, .8),
+		rgba(0, 0, 0, .4),
+		rgba(0, 0, 0, 0)
+) no-repeat
+"""
+
+
+
+"--card-title-margin" = ".3rem auto"
+"--card-title-padding" = "0"
