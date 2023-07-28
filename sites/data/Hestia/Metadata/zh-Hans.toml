@@ -12,10 +12,10 @@
 #                        公司名+物品名）。
 # Name.Full            - 全名来称呼这网站或网络APP。官方网站使用。
 [Name]
-ID = "com.zoralab.hestia"
-SKU = "hestia"
-Short = "赫斯提亚"
-Full = "ZORALab：赫斯提亚"
+ID = "com.zoralab.prestige-demo"
+SKU = "demo-prestige"
+Short = "信誉"
+Full = "信誉机构"
 
 
 
@@ -23,10 +23,10 @@ Full = "ZORALab：赫斯提亚"
 # Descriptions.Pitch   - 短，直接，讲重点，和宣传性的陈述。最多160字母。
 # Descriptions.Summary - 扩大Description.Pitch的陈述。最多250字母。
 [Descriptions]
-Pitch = '从研制者制作给另一个研制者的一个可建好前端+后端的代码库。'
+Pitch = '通过共情方式了解您的梦想后把它给现实化咯！'
 Summary = '''
-这工程统一话所有的常用代码库获取可重用的数据结构，把学习过程简单化，和对齐一切的
-工具。以后不需要再烦恼供应链的威胁和问题下放松地去研制和学习吧。
+我们不只是实施设计工作而已啦！从一开始我们进行同理心审查、激发未来愿景、
+对地球友好性地运用资源和可靠地控制我们的产品素质。
 '''
 
 
@@ -35,15 +35,9 @@ Summary = '''
 # Categories           - 关网站的键主题菜单。
 [Categories]
 List = [
-        '网站',
-        '科技',
-        'PWA',
-        'WASM',
-        '代码库',
-        'Hugo',
-        'Go',
-        'TinyGo',
-        'Rust',
-        'ZORALab',
-        "ZORALab's赫斯提亚",
+	'网站',
+	'信誉机构',
+	'演示',
+	'ZORALab赫斯提亚',
+	'ZORALab',
 ]

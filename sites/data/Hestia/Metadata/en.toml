@@ -15,10 +15,10 @@
 #                        words (e.g. Namespace + product).
 # Name.Full            - used to display brand and app in articles or pages.
 [Name]
-ID = "com.zoralab.hestia"
-SKU = "hestia"
-Short = "Hestia"
-Full = "ZORALab's Hestia"
+ID = "com.zoralab.prestige-demo"
+SKU = "demo-prestige"
+Short = "Prestige"
+Full = "Prestige Agency"
 
 
 
@@ -28,12 +28,11 @@ Full = "ZORALab's Hestia"
 # Descriptions.Summary - Expands from your pitch and elaborate your app. Keep it
 #                        max 250 characters overall (including Pitch if used).
 [Descriptions]
-Pitch = 'Frontend+Backend in One Peaceful Suite; by Developers; for Developers.'
-Summary = """\
-The project is to unify all common libraries and data structure into 1 single
-repository for highest attributes of reusablity, smoother learning curves, and a
-more wholesome tools alignments. Develop and learn advanced products easily with
-less worries about supply chain problems.
+Pitch = 'Empathize & Materialize Your Dream into Reality.'
+Summary = """
+We don't just implement a design work; we go through empathy reviews, inspire
+futuristic vision, deploy resources friendly to planet Earth, and reliably
+controls the quality of our output.
 """
 
 
@@ -42,15 +41,9 @@ less worries about supply chain problems.
 # Site-oriented keywords list used for categorization and keyword searching.
 [Categories]
 List = [
-        'Web',
-        'Tech',
-        'PWA',
-        'WASM',
-        'Software Libraries',
-        'Hugo',
-        'Go',
-        'TinyGo',
-        'Rust',
-        'ZORALab',
-        "ZORALab's Hestia",
+	'Web',
+	'Prestige Agency',
+	'Demo',
+	"ZORALab's Hestia",
+	'ZORALab',
 ]
