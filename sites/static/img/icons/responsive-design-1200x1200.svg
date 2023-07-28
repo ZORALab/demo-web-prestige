@@ -1,0 +1,29 @@
+<!--
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Prestige Web Demo Proprietary License
+
+Licensed under ZORALab Proprietary License (the “License”); you may ONLY use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+        https://www.zoralab.com/docs/legal/zoralab-proprietary-license
+
+All information contained herein is, and remains the property of ZORALab
+Enterprise and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to ZORALab Enterprise and its suppliers and
+may be covered by Malaysia Patent Law, patents in process, and are protected by
+trade secret or copyright law. Dissemination of this information or reproduction
+of this material is strictly forbidden unless prior written permission is
+obtained from ZORALab Enterprise.
+-->
+<svg width="1200" height="1200" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(7.8197 0 0 7.8197 1901.3 609.82)">
+  <g id="logo-foreground" transform="matrix(1.1751,0,0,1.2048,-13.899,-3.2493)" stroke="#00002b">
+   <g transform="translate(-3.1912e-7,-5.4904)" fill="#fff" stroke="#00002b" style="stroke:none">
+    <path d="m-177.84-33.691c-1.3728 0-2.6181 0.2143-3.6487 0.64704-0.51528 0.21637-0.98616 0.48435-1.3914 0.88804-0.40527 0.40369-0.76194 1.0174-0.76194 1.7271v63.653c0 0.70967 0.35667 1.3213 0.76194 1.725 0.40529 0.40369 0.87617 0.67167 1.3914 0.88804 1.0306 0.43274 2.2758 0.64915 3.6487 0.64915h10.548v8.996c0 1.3305 1.0898 2.4979 2.456 2.4979h22.683c1.3662 0 2.4582-1.1674 2.4582-2.4979v-1.5217h29.035c1.7179 0 3.2708-1.3322 3.2708-3.1032v-1.9411c1.3575 3.9996 5.2232 6.8839 9.7379 6.8839 5.3868 0 9.8501-4.1062 10.231-9.3138h5.6718c1.3729 0 2.6181-0.21641 3.6487-0.64915 0.51528-0.21637 0.98616-0.48435 1.3914-0.88804 0.40528-0.40369 0.76194-1.0153 0.76194-1.725v-63.653c0-0.70967-0.35666-1.3234-0.76194-1.7271-0.40528-0.40369-0.87616-0.67167-1.3914-0.88804-1.0306-0.43274-2.2758-0.64704-3.6487-0.64704zm0 2.847h96.092c1.0519 0 1.995 0.19457 2.5466 0.4262 0.23269 0.0977 0.34073 0.18366 0.40621 0.23631v63.159c-0.06552 0.05266-0.1736 0.13653-0.40621 0.2342-0.55163 0.23163-1.4948 0.4262-2.5466 0.4262h-5.8775c-1.0026-4.5225-5.1329-7.9091-10.025-7.9091-4.5147 0-8.3804 2.8843-9.7379 6.8839v-49.886c0-1.7711-1.5529-3.1032-3.2708-3.1032h-40.551c-1.7179 0-3.271 1.3322-3.271 3.1032v23.102h-10.354c-1.3662 0-2.456 1.1653-2.456 2.4958v25.313h-10.548c-1.0519 0-1.995-0.19457-2.5466-0.4262-0.23181-0.09734-0.34052-0.18135-0.40645-0.2342v-63.159c0.0659-0.05283 0.17455-0.13894 0.40645-0.23631 0.55163-0.23163 1.4948-0.4262 2.5466-0.4262zm26.63 13.316h40.551c0.32856 0 0.42183 0.16555 0.42183 0.25413v58.132c0 0.08858-0.0933 0.25389-0.42183 0.25389h-29.035v-32.787c0-1.3305-1.092-2.4958-2.4582-2.4958h-9.4795v-23.102c0-0.08858 0.0933-0.25413 0.42183-0.25413zm-13.234 26.203h21.901v36.456h-21.901zm66.794 19.569c4.308 0 7.7437 3.3687 7.7437 7.5204s-3.4357 7.5204-7.7437 7.5204-7.7434-3.3687-7.7434-7.5204 3.4354-7.5204 7.7434-7.5204z" style="-inkscape-stroke:none;color:#000000;fill:#000"/>
+   </g>
+  </g>
+ </g>
+</svg>

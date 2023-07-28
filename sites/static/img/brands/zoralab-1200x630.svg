@@ -1,0 +1,36 @@
+<!--
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Prestige Web Demo Proprietary License
+
+Licensed under ZORALab Proprietary License (the “License”); you may ONLY use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+        https://www.zoralab.com/docs/legal/zoralab-proprietary-license
+
+All information contained herein is, and remains the property of ZORALab
+Enterprise and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to ZORALab Enterprise and its suppliers and
+may be covered by Malaysia Patent Law, patents in process, and are protected by
+trade secret or copyright law. Dissemination of this information or reproduction
+of this material is strictly forbidden unless prior written permission is
+obtained from ZORALab Enterprise.
+-->
+<svg width="1200" height="630" version="1.1" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+ <text font-family="'Noto Sans'" font-size="88.194px" font-weight="300" style="line-height:1.25;shape-inside:url(#rect875);white-space:pre" xml:space="preserve"/>
+ <text font-family="'Noto Sans'" font-size="4.2333px" font-weight="300" style="line-height:1.25;shape-inside:url(#rect881);white-space:pre" xml:space="preserve"/>
+ <g transform="translate(-14.08)">
+  <g transform="matrix(1.3204 0 0 1.3204 -55.382 70.981)" fill="none" opacity=".99">
+   <g shape-rendering="auto">
+    <path d="m227.96 77.349c-6.0852-5.1999-15.343-4.0676-20.327 1.7728l-120.08 140.74c-4.9831 5.8405-4.6485 15.167 1.4366 20.367 6.0852 5.1999 15.344 4.0704 20.327-1.7701l120.08-140.74c4.9831-5.8405 4.6483-15.17-1.4368-20.37z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#000080" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+    <path d="m107.75 73.592c-7.9017 0-14.553 6.6511-14.553 14.553 0 7.9017 6.6511 14.551 14.553 14.551h110.64c7.9017 0 14.551-6.6491 14.551-14.551s-6.6491-14.553-14.551-14.553z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#00f" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+    <path d="m98.892 214.8c-8.0454 0-14.815 6.6491-14.815 14.551 0 7.9017 6.7701 14.553 14.815 14.553h118.54c8.0454 0 14.815-6.6511 14.815-14.553 0-7.9017-6.7701-14.551-14.815-14.551z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#00002b" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   </g>
+  </g>
+  <path d="m123.83 423.42c-11.024 0-20.302 8.7818-20.302 19.215 0 10.433 9.2789 19.212 20.302 19.212h155.03c11.024 0 20.302-8.7792 20.302-19.212 0-10.433-9.2789-19.215-20.302-19.215z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#002b00" image-rendering="auto" opacity=".99" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path d="m293.22 242.33c-8.0346-6.8657-20.259-5.3707-26.838 2.3408l-158.55 185.83c-6.5795 7.7115-6.1378 20.026 1.8969 26.892 8.0346 6.8657 20.259 5.3744 26.839-2.3371l158.55-185.83c6.5795-7.7115 6.1375-20.03-1.8971-26.896z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#0f0" image-rendering="auto" opacity=".99" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <text x="306.53238" y="396.03345" font-family="'Noto Sans'" font-size="226.67px" font-weight="300" letter-spacing="10px" style="line-height:1.25" xml:space="preserve"><tspan x="306.53238" y="396.03345" font-family="'Noto Sans'" font-size="226.67px" font-weight="200">ORALAB</tspan></text>
+ </g>
+</svg>

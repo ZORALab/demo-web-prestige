@@ -1,0 +1,94 @@
+[Languages.EN]
+ID = 'reliable-foundation'
+Title = 'Reliable Foundation'
+HTML = '''
+<b><i>Configured and Backed by the Right Technologies</i></b> — grow reliably
+with the latest insights across the industry.
+'''
+Plain = '''
+**Configured and Backed by the Right Technologies Autonomously** — grow reliably
+with the latest insights across the industry.
+'''
+
+[[Languages.EN.CTA]]
+Value = 'https://github.com/orgs/ZORALab/projects/9'
+Label = 'WITNESS LIVE HERE'
+
+
+
+
+[Media]
+Name = 'Reliable Foundation'
+Decorative = true
+Loading = 'lazy'
+Width = '600'
+Height = '420'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-1024x717.avif'
+Type = 'image/avif'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-1024x717.webp'
+Type = 'image/webp'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-1024x717.jpg'
+Type = 'image/jpg'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-800x560.avif'
+Type = 'image/avif'
+Media = '(min-width: 250px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-800x560.webp'
+Type = 'image/webp'
+Media = '(min-width: 250px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-800x560.jpg'
+Type = 'image/jpg'
+Media = '(min-width: 250px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-500x350.avif'
+Type = 'image/avif'
+Media = 'all'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-500x350.webp'
+Type = 'image/webp'
+Media = 'all'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/reliable-foundation-500x350.jpg'
+Type = 'image/jpg'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

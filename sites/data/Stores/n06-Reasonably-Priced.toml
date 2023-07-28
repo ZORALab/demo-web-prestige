@@ -1,0 +1,46 @@
+[Languages.EN]
+ID = 'reasonably-priced-tech-services'
+Title = 'Reasonably Priced Tech Services'
+HTML = '''
+<b><i>By Transactional Request; Not By Monthly Fees</i></b> — Specifically
+designed for SMEs.
+'''
+Plain = '''
+**Charged By Transactional Request; Not By Monthly Fees** — Specifically
+designed for SMEs.
+'''
+
+[[Languages.EN.CTA]]
+Value = ''
+Label = ''
+
+
+
+
+[Media]
+Name = 'Reasonably Priced Tech Services'
+Decorative = true
+Loading = 'lazy'
+Width = '500'
+Height = '350'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/icons/reasonable-price-1200x1200.svg'
+Type = 'image/svg+xml'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

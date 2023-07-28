@@ -48,6 +48,54 @@
 #
 #        ...
 [[List]]
+Name = 'corygalynaCORE'
+Include = true
+Variables = []
+
+
+[[List]]
 Name = 'fontkaiFONT_KAISEIDECOL'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = 'corygalynaCAROUSEL_3BG'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = 'corygalynaANCHOR'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = 'corygalynaBUTTON'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = 'corygalynaCARD'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = 'zoralabTILE'
+Include = true
+Variables = []
+
+
+[[List]]
+Name = "zoralabSPLIT_SKEW"
+Include = true
+Variables = []
+
+
+[[List]]
+Name = "zoralabULIST"
 Include = true
 Variables = []

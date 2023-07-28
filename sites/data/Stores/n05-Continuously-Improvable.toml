@@ -1,0 +1,46 @@
+[Languages.EN]
+ID = 'nimble-and-continuously-improvable'
+Title = 'Nimble & Continuously Improvable'
+HTML = '''
+<b><i>Flexible Tech, Componentized UI, & Version Controlled</i></b> — Feel free
+to express your ideas; we'll develop it when feasible.
+'''
+Plain = '''
+**Flexible Tech, Componentized UI, & Version Controlled** — Feel free to express
+your ideas; we'll develop it when feasible.
+'''
+
+[[Languages.EN.CTA]]
+Value = ''
+Label = ''
+
+
+
+
+[Media]
+Name = 'Nimble & Continuously Improvable'
+Decorative = true
+Loading = 'lazy'
+Width = '500'
+Height = '350'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/icons/ci-1200x1200.svg'
+Type = 'image/svg+xml'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

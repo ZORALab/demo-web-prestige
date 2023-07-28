@@ -1,0 +1,76 @@
+[Languages.EN]
+ID = 'explore-with-confidence'
+Title = 'Explore With Confidence'
+HTML = '''
+<b><i>Modular Components & Backed by Time Machine Technology</i></b> — explore
+confidently and continuously improved.
+'''
+Plain = '''
+**Modular Components & Backed by a Time Machine Technology** — explore
+confidently and continuously improved.
+'''
+
+[[Languages.EN.CTA]]
+Value = 'https://github.com/ZORALab/demo-web-prestige/releases'
+Label = 'WITNESS LIVE HERE'
+
+
+
+
+[Media]
+Name = 'Explore with Confidence'
+Decorative = true
+Loading = 'lazy'
+Width = '600'
+Height = '420'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-800x560.avif'
+Type = 'image/avif'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-800x560.webp'
+Type = 'image/webp'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-800x560.jpg'
+Type = 'image/jpg'
+Media = '(min-width: 450px)'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-500x350.avif'
+Type = 'image/avif'
+Media = 'all'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-500x350.webp'
+Type = 'image/webp'
+Media = 'all'
+Descriptor = '1x'
+
+[[Media.Sources]]
+URL = '/img/backgrounds/explore-with-confidence-500x350.jpg'
+Type = 'image/jpg'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

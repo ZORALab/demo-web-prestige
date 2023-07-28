@@ -1,0 +1,30 @@
+<!--
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Prestige Web Demo Proprietary License
+
+Licensed under ZORALab Proprietary License (the “License”); you may ONLY use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+        https://www.zoralab.com/docs/legal/zoralab-proprietary-license
+
+All information contained herein is, and remains the property of ZORALab
+Enterprise and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to ZORALab Enterprise and its suppliers and
+may be covered by Malaysia Patent Law, patents in process, and are protected by
+trade secret or copyright law. Dissemination of this information or reproduction
+of this material is strictly forbidden unless prior written permission is
+obtained from ZORALab Enterprise.
+-->
+<svg width="1200" height="1200" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+ <text style="font-family:'Noto Sans';font-size:10.667px;font-variant-ligatures:none;line-height:1.25;shape-inside:url(#rect421);white-space:pre" xml:space="preserve"/>
+ <g transform="matrix(.5057 0 0 .5057 296.58 293.99)">
+  <g transform="translate(.30096 -104.6)" style="font-variant-ligatures:none" aria-label="🠧">
+   <path d="m600.23 1031.8-237.87-298.67h193.07v-461.87h89.6v461.87h192z"/>
+  </g>
+  <rect x="232.11" y="963.34" width="735.79" height="78.98" rx="8.6375" ry="13.197" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:2.465;stroke:#87ceeb"/>
+ </g>
+ <path d="m421.17 100c-37.392 0-67.995 30.603-67.995 67.995v864.01c0 37.392 30.603 67.997 67.995 67.997h357.65c37.392 0 67.995-30.603 67.995-67.888v-864.12c0-37.392-30.603-67.995-67.995-67.995zm10.13 24.785h67.349c0.32333 13.039 11.099 23.707 24.246 23.707h154.09c13.147 0 23.922-10.668 24.246-23.707h67.349c29.849 0 53.987 24.138 53.772 53.879v842.67c0 29.742-24.138 53.879-53.879 53.879h-337.18c-29.741 0-53.879-24.138-53.879-53.879v-842.67c0-29.741 24.138-53.879 53.879-53.879z" style="stroke-width:.96414"/>
+</svg>

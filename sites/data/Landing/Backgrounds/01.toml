@@ -1,0 +1,76 @@
+[Content]
+Name = '1st Content'
+Decorative = true
+Loading = 'lazy'
+Width = '1200'
+Height = '1200'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-4912x4912.avif'
+Type = 'image/avif'
+Media = '(min-width: 3000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-4912x4912.webp'
+Type = 'image/webp'
+Media = '(min-width: 3000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-4912x4912.jpg'
+Type = 'image/jpg'
+Media = '(min-width: 3000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-2048x2048.avif'
+Type = 'image/avif'
+Media = '(min-width: 1000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-2048x2048.webp'
+Type = 'image/webp'
+Media = '(min-width: 1000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-2048x2048.jpg'
+Type = 'image/jpg'
+Media = '(min-width: 1000px)'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-1200x1200.avif'
+Type = 'image/avif'
+Media = 'all'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-1200x1200.webp'
+Type = 'image/webp'
+Media = 'all'
+Descriptor = '1x'
+
+[[Content.Sources]]
+URL = '/img/backgrounds/landing-01-1200x1200.jpg'
+Type = 'image/jpg'
+Media = 'all'
+Descriptor = '1x'
+
+[Content.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false
+

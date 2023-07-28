@@ -1,0 +1,42 @@
+[Languages.EN]
+ID = 'google-analytics-4'
+Title = 'Google Analytics 4'
+HTML = '''
+'''
+Plain = '''
+'''
+
+[[Languages.EN.CTA]]
+Value = ''
+Label = ''
+
+
+
+
+[Media]
+Name = 'Google Analytics 4'
+Decorative = true
+Loading = 'lazy'
+Width = '200'
+Height = '105'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/brands/google-analytics-4-1200x630.svg'
+Type = 'image/svg+xml'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

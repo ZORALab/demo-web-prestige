@@ -1,0 +1,79 @@
+[i18n]
+Title = 'Title'
+Description = 'Description'
+
+
+
+
+[i18n.Introduction]
+ID = 'introduction'
+
+
+[[i18n.Introduction.CTA]]
+Value = '#develop-yours'
+Label = 'Develop Yours'
+Focus = true
+
+
+[[i18n.Introduction.CTA]]
+Value = '#why-us'
+Label = 'Learn More'
+Focus = false
+
+
+
+
+[i18n.WhyUs]
+ID = 'why-us'
+Title = 'Why Us?'
+HTML = '''
+Some good reasons for doing business with us.
+'''
+
+
+
+
+[i18n.DevelopYours]
+ID = 'develop-yours'
+Title = 'Develop Yours Own'
+HTML = '''
+Customize your builds with all the following features, both included and
+optional today!
+'''
+
+
+
+
+[i18n.ThisDesign]
+ID = 'this-design'
+Title = 'Minimalistic & Functional Design'
+HTML = '''
+<ul>
+	<li><p>
+		Earning business trust via minimalism & straight to business
+		design
+	</p></li>
+	<li><p>
+		Maximizing your artwork showcasing easily and confidently via
+		high-res photographic product display
+	</p></li>
+	<li><p>
+		Easily adjustable, reliably developable, & swappable UI
+		components (button type, font, etc)
+	</p></li>
+</ul>
+'''
+
+[i18n.ThisDesign.Reference]
+Value = 'https://www.bmwusa.com/'
+Label = 'Inspired from BMW USA'
+
+
+
+
+[i18n.OurStakeholders]
+ID = 'our-stakeholders'
+Title = 'Our Stakeholders'
+HTML = '''
+From supplying services to supportive customer ends; We never walks alone.
+'''

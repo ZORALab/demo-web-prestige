@@ -1,0 +1,46 @@
+[Languages.EN]
+ID = 'searchable-online'
+Title = 'Easily Searchable Online'
+HTML = '''
+<b><i>Easily Discoverable by Google, DuckDuckGo, Phind AI, etc</i></b> — SEO,
+LD+JSON, etc technologies included.
+'''
+Plain = '''
+**Easily Discoverable by Google, DuckDuckGo, Phind AI, etc** — SEO, LD+JSON,
+etc technologies included.
+'''
+
+[[Languages.EN.CTA]]
+Value = ''
+Label = ''
+
+
+
+
+[Media]
+Name = 'Searchable Online'
+Decorative = true
+Loading = 'lazy'
+Width = '500'
+Height = '350'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Media.Sources]]
+URL = '/img/icons/searchable-1200x1200.svg'
+Type = 'image/svg+xml'
+Media = 'all'
+Descriptor = '1x'
+
+[Media.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false
