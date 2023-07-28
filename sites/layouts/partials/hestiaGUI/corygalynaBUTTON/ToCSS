@@ -1,0 +1,91 @@
+{{- /*
+Copyright 2023 ZORALab Enterprise <tech@zoralab.com>
+
+
+Prestige Web Demo Proprietary License
+
+Licensed under ZORALab Proprietary License (the “License”); you may ONLY use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+        https://www.zoralab.com/docs/legal/zoralab-proprietary-license
+
+All information contained herein is, and remains the property of ZORALab
+Enterprise and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to ZORALab Enterprise and its suppliers and
+may be covered by Malaysia Patent Law, patents in process, and are protected by
+trade secret or copyright law. Dissemination of this information or reproduction
+of this material is strictly forbidden unless prior written permission is
+obtained from ZORALab Enterprise.
+*/ -}}
+{{- /* WARNING: Auto-generated file. DO NOT EDIT! */ -}}
+button, .button {
+	display: var(--button-display);
+	opacity: var(--button-opacity);
+
+	margin: var(--button-margin);
+	padding: var(--button-padding);
+
+	border: var(--button-border);
+	border-radius: var(--button-border-radius);
+
+	font-size: var(--button-font-size);
+	font-weight: var(--button-font-weight);
+	letter-spacing: var(--button-letter-spacing);
+	text-align: var(--button-text-align);
+	text-decoration: var(--button-text-decoration);
+	text-transform: var(--button-text-transform);
+	overflow-wrap: var(--button-overflow-wrap);
+	line-height: var(--button-line-height);
+
+	color: var(--button-color);
+	background: var(--button-background);
+	border-color: var(--button-color);
+	box-shadow: var(--button-box-shadow);
+
+	transition: var(--button-transition);
+}
+
+:is(.inverted, footer, .footer) .button {
+	color: var(--button-color);
+	background: var(--button-background);
+	border-color: var(--button-color);
+}
+
+:is(button, .button) :is(:disabled, :not([disabled]):active) {
+	box-shadow: none;
+}
+
+:is(button, .button):disabled {
+	opacity: var(--button-opacity-disabled);
+}
+
+:is(button, .button):not([disabled]):is(:hover, :focus) {
+	color: var(--button-color);
+	background: var(--button-background);
+	border-color: var(--button-color);
+	box-shadow: var(--button-box-shadow-focus);
+
+	transform: var(--button-transform-focus);
+}
+
+:is(button, .button).pill {
+	color: var(--button-color-pill);
+	background: var(--button-background-pill);
+	border-color: transparent;
+}
+
+:is(button, .button).pill:not([disabled]):is(:hover, :focus) {
+	color: var(--button-color-pill);
+	background: var(--button-background-pill);
+	border-color: transparent;
+	box-shadow: var(--button-box-shadow-focus);
+}
+
+@media print {
+	button, .button {
+		color: var(--button-color-print) !important;
+		border-color: var(--button-color-print) !important;
+		background: var(--button-background-print) !important;
+	}
+}

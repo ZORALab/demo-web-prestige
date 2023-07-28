@@ -1,0 +1,47 @@
+[CSS.Variables]
+"--button-display" = "inline-block"
+"--button-opacity" = "1"
+"--button-opacity-disabled" = ".3"
+
+
+
+
+"--button-margin" = ".5rem 1.2rem"
+"--button-padding" = "1.3rem"
+
+
+
+
+"--button-border" = "2px solid transparent"
+"--button-border-radius" = ".2rem"
+
+
+
+
+"--button-font-size" = "var(--body-font-size)"
+"--button-font-weight" = "700"
+"--button-letter-spacing" = ".1rem"
+"--button-text-align" = "center"
+"--button-text-decoration" = "none"
+"--button-text-transform" = "uppercase"
+"--button-overflow-wrap" = "break-word"
+"--button-line-height" = "var(--body-line-height)"
+
+
+
+
+"--button-color" = "var(--color-primary-800)"
+"--button-color-pill" = "var(--color-typography-50)"
+"--button-color-shadow" = "var(--color-typography-500)"
+"--button-color-print" = "var(--body-color-print)"
+"--button-background" = "color-mix(in srgb, var(--button-color) 15%, #fff)"
+"--button-background-pill" = "color-mix(in srgb, var(--button-color) 95%, #000)"
+"--button-background-print" = "var(--body-background-print)"
+"--button-box-shadow" = "0 .5rem 1rem var(--button-color-shadow)"
+"--button-box-shadow-focus" = "0 .5rem 2rem var(--button-color-shadow)"
+
+
+
+
+"--button-transition" = "var(--timing-rapid)"
+"--button-transform-focus" = "scale(1.1)"
