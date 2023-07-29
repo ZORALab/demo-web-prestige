@@ -1,18 +1,18 @@
 [Languages.EN]
-ID = 'Epilogue'
-Title = 'Epilogue'
+ID = 'cta'
+Title = 'Get a Quote!'
 Description = '''
-Well, that's all for the demo and sneak peek! Love what we did to this platform?
-You can own one too. Feel free to get a quote from us or simply contact us here:
+Like how we did to this website? It can be yours! Please makes your peers
+envious about what you will have. We're reachable at:
 '''
 
 
 [Languages.ZH-HANS]
-ID = 'contact-us'
+ID = 'cta'
 Title = '获取报价吧!'
 Description = '''
-我们已经抵达这个演示终结段落了。喜欢我们在这个平台的作品吗？
-您也可以拥有自己的哦！欢迎联系我们或和我们获取报价吧：
+喜欢我们在这个网页所做的设计吗？您也可以拥有自己的哦！
+欢迎联系我们或和我们获取报价吧：
 '''
 
 
@@ -20,33 +20,39 @@ Description = '''
 
 [[Languages.EN.URL]]
 Value = 'https://github.com/ZORALab/Hestia/discussions'
-Label = 'Discuss on GitHub'
+Label = 'GitHub'
+Focus = false
 
 
 [[Languages.ZH-HANS.URL]]
 Value = 'https://github.com/ZORALab/Hestia/discussions'
-Label = 'GitHub论坛'
+Label = 'GitHub'
+Focus = false
 
 
 
 
 [[Languages.EN.URL]]
-Value = 'mailto:hello@zoralab.com?subject=Inquiry%20For%20Prestige%20Web%20Demo%20Platform%20Construction&body=Hi%20ZORALab%20Team%2C%0A%0AI%20stumbled%20upon%20https%3A%2F%2Fprestige-demo.zoralab.com%20and%20I%20do%20have%20some%20inquiries%3A%0A%0A%5BYOUR_INQUIRY_HERE%5D%0A%0A%0AThank%20you.%0A%0A%0ARegards%2C%0A%5BYOUR_NAME_HERE%5D'
+Value = 'mailto:hello@zoralab.com?subject=Request%20Quotation%20for%20ZORALab's%20Prestige%20Demo%20Web%20Platform&body=Hi%20ZORALab%20Team%2C%0A%0AI%20stumbled%20upon%20your%20Prestige%20Demo%20Website%20(https%3A%2F%2Fprestige-demo.zoralab.com)%20and%20I%20wish%20to%20request%20a%20quotation%20to%20setup%20mine.%0A%0APlease%20do%20keep%20me%20in%20touch!%20Would%20love%20to%20see%20it%20done%20for%20my%20business.%0A%0A%0ARegards%2C%0A%5BYOUR_NAME_HERE%5D'
 Label = 'hello@zoralab.com'
+Focus = true
 
 
 [[Languages.ZH-HANS.URL]]
 Value = 'mailto:hello@zoralab.com?subject=Inquiry%20For%20Prestige%20Web%20Demo%20Platform%20Construction&body=%E5%97%A8ZORALab%E5%9B%A2%E9%98%9F%EF%BC%8C%0A%0A%E6%88%91%E5%9C%A8https%3A%2F%2Fprestige-demo.zoralab.com%E8%B7%AF%E8%BF%87%E8%80%8C%E6%9C%89%E4%B8%80%E4%BA%9B%E6%83%85%E5%86%B5%E6%83%B3%E8%AF%B7%E9%97%AE%E4%B8%80%E4%B8%8B%EF%BC%9A%0A%0A%5B%E6%82%A8%E7%9A%84%E9%97%AE%E9%A2%98%5D%0A%0A%0A%E8%B0%A2%E8%B0%A2%E3%80%82%0A%0A%0A%5B%E6%82%A8%E7%9A%84%E5%90%8D%E5%AD%97%5D%20%E4%B8%8A'
 Label = 'hello@zoralab.com'
+Focus = true
 
 
 
 
 [[Languages.EN.URL]]
 Value = 'https://t.me/hollowaykeanho'
-Label = 'Telegram Holloway (Creator)'
+Label = 'Telegram (Holloway)'
+Focus = false
 
 
 [[Languages.ZH-HANS.URL]]
 Value = 'https://t.me/hollowaykeanho'
-Label = 'Telegram Holloway （开源者）'
+Label = 'Telegram (Holloway)'
+Focus = false
