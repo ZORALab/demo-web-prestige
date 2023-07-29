@@ -48,15 +48,25 @@
 #
 #        ...
 [[List]]
-Name = 'corygalynaCORE'
+Name = 'fontkaiFONT_KAISEIDECOL'
 Include = true
 Variables = []
 
 
 [[List]]
-Name = 'fontkaiFONT_KAISEIDECOL'
+Name = 'googleFONT_NOTOSANS'
 Include = true
 Variables = []
+
+
+[[List]]
+Name = 'corygalynaCORE'
+Include = true
+Variables = [
+	{ "--body-font-family" = '"Noto Sans", "Noto Serif", "Noto Color Emoji", "Roboto", "Helvetica Neue", "sans-serif"' },
+
+	{ "--headers-font-family" = '"Kaisei Decol", "Roboto", "Helvetica Neue", "sans-serif"' },
+]
 
 
 [[List]]
