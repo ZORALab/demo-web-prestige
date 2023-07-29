@@ -41,7 +41,7 @@ obtained from ZORALab Enterprise.
 	transition: var(--card-timing);
 }
 
-.card .thumbnail {
+.card :is(.thumbnail, picture.thumbnail img) {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -50,9 +50,10 @@ obtained from ZORALab Enterprise.
 	margin: 0;
 	padding: 0;
 
-	width: auto;
-	height: auto;
+	width: 100%;
+	height: 100%;
 
+	object-position: var(--card-thumbnail-object-position);
 	object-fit: var(--card-thumbnail-object-fit);
 
 	overflow: var(--card-thumbnail-overflow);

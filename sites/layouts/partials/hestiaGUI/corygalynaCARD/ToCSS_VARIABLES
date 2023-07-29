@@ -22,7 +22,7 @@
 
 "--card-thumbnail-overflow" = "hidden"
 "--card-thumbnail-object-fit" = "cover"
-
+"--card-thumbnail-object-position" = "center center"
 
 
 
