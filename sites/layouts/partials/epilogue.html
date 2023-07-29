@@ -53,6 +53,13 @@ obtained from ZORALab Enterprise.
 	{{- $ret = merge $Page (dict "Input" (dict "Data" $v.Value)) -}}
 	{{- $ret = partial "hestiaURL/Sanitize" $ret -}}
 	{{- $ret = string $ret.Output }}
-		<a href='{{- $ret -}}' class='button pill'>{{- $v.Label -}}</a>
+		<a href='{{- $ret -}}' class='button
+			{{- if $v.Focus }} pill {{- end -}}
+		' style='
+			--button-color: green;
+			{{- if $v.Focus }} background: green; {{- end -}}
+		'>
+			{{- $v.Label -}}
+		</a>
 {{- end }}
 	</section>
