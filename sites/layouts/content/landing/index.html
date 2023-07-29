@@ -31,9 +31,28 @@ algorithms are required.
 			background-position: center center;
 			background-size: cover;
 		'>
-			<h1>{{- .Titles.Page -}}</h1>
+			{{- $ret = merge $Page (dict "Input" (dict
+				"Data" "/img/brands/prestige-animated-1200x335.svg"
+			)) -}}
+			{{- $ret = partial "hestiaURL/Sanitize" $ret -}}
+			<img alt='' src='{{- string $ret.Output -}}' width='300' height='84'
+				style=' display: block;
+					margin: 2rem 0 0;
+					max-width: 100%;
+					filter: invert(100%)
+						sepia(0%)
+						saturate(7376%)
+						hue-rotate(316deg)
+						brightness(114%)
+						contrast(98%);
+			'/>
+			<h1 style='margin-top: 3rem;'>{{- .Titles.Page -}}</h1>
 			<p>{{- .Descriptions.Page.Pitch }} {{ .Descriptions.Page.Summary -}}</p>
-			<div class='row' style='width: max-content;'>
+			<div class='row' style='
+				width: max-content;
+				gap: 2.5rem;
+				margin-top: 5rem;
+			'>
 				{{- range $unused, $v := $i18n.Introduction.CTA }}
 				<div class='column' style='display: flex; justify-content; flex-start;'>
 					{{- $ret = merge $Page (dict "Input"
@@ -45,6 +64,7 @@ algorithms are required.
 						{{- if $v.Focus }} pill{{- end -}}
 					' style='
 						min-width: 25rem;
+						margin: 0;
 					'>
 						{{- $v.Label -}}
 					</a>
