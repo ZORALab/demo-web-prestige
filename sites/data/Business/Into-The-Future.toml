@@ -2,12 +2,12 @@
 ID = 'into-the-future'
 Title = 'Into The Future'
 HTML = '''
-<b><i>Supportive Maintenance Services Available</i></b> — Continue to
-collaborate beyond our project completion.
+<b><i>We Have SME Friendly Maintenance Services</i></b> — let's seek s mutual
+win-win business sustainability & outcome.
 '''
 Plain = '''
-<b><i>Supportive Maintenance Services Available</i></b> — Continue to
-collaborate beyond our project completion.
+**We Have SME Friendly Maintenance Services** — let's seek s mutual win-win
+business sustainability & outcome.
 '''
 
 [[Languages.EN.CTA]]
@@ -21,8 +21,8 @@ Label = ''
 Name = 'Into the Future'
 Decorative = true
 Loading = 'lazy'
-Width = '600'
-Height = '420'
+Width = '800'
+Height = '560'
 CORS = 'anonymous'
 Relationship = ''
 Design = ''

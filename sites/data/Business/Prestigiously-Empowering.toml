@@ -2,17 +2,17 @@
 ID = 'prestigously-empowering'
 Title = 'Prestigously Empowering'
 HTML = '''
-<b><i>Listening to Every Tiny Bits of Your Idea, Always</i></b> — tap our
-in-depth technological knowledge and tools to materialize it.
+<b><i>Always Listening and Tracking Every Single Bits of Your Idea</i></b> —
+just express your thought; we'll dance accordingly.
 '''
 Plain = '''
-**Listening to Every Tiny Bits of Your Idea, Always** — tap into our
-in-depth technological knowledge and tools to materialize it.
+**Always Listening and Tracking Every Single Bits of Your Idea** — just express
+your thought; we'll dance accordingly.
 '''
 
 [[Languages.EN.CTA]]
-Value = 'https://github.com/ZORALab/demo-web-prestige/issues'
-Label = 'WITNESS LIVE HERE'
+Value = 'https://github.com/ZORALab/demo-web-prestige/issues?q=is%3Aissue'
+Label = 'WITNESS TRACKER SYSTEM LIVE'
 
 
 
@@ -21,8 +21,8 @@ Label = 'WITNESS LIVE HERE'
 Name = 'Prestigously Empowering'
 Decorative = true
 Loading = 'lazy'
-Width = '600'
-Height = '420'
+Width = '800'
+Height = '560'
 CORS = 'anonymous'
 Relationship = ''
 Design = ''

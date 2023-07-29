@@ -2,17 +2,17 @@
 ID = 'explore-with-confidence'
 Title = 'Explore With Confidence'
 HTML = '''
-<b><i>Modular Components & Backed by Time Machine Technology</i></b> — explore
-confidently and continuously improved.
+<b><i>We Got The Right Technologies</i></b> — explore your new boundaries
+without worrying about breaking things.
 '''
 Plain = '''
-**Modular Components & Backed by a Time Machine Technology** — explore
-confidently and continuously improved.
+**We Got The Right Technologies** — explore your new boundaries without worrying
+about breaking things.
 '''
 
 [[Languages.EN.CTA]]
 Value = 'https://github.com/ZORALab/demo-web-prestige/releases'
-Label = 'WITNESS LIVE HERE'
+Label = 'WITNESS CONTROLLED RELEASES LIVE'
 
 
 
@@ -21,8 +21,8 @@ Label = 'WITNESS LIVE HERE'
 Name = 'Explore with Confidence'
 Decorative = true
 Loading = 'lazy'
-Width = '600'
-Height = '420'
+Width = '800'
+Height = '560'
 CORS = 'anonymous'
 Relationship = ''
 Design = ''

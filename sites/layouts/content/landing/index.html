@@ -43,6 +43,8 @@ algorithms are required.
 					{{- $ret = string $ret.Output -}}
 					<a href='{{- $ret -}}' class='button
 						{{- if $v.Focus }} pill{{- end -}}
+					' style='
+						min-width: 25rem;
 					'>
 						{{- $v.Label -}}
 					</a>
@@ -65,8 +67,8 @@ algorithms are required.
 
 
 	<section id='{{- $i18n.WhyUs.ID -}}'>
-		<h2 style='opacity: 0;'>{{- $i18n.WhyUs.Title -}}</h2>
-		<p style='opacity: 0;'>{{- $i18n.WhyUs.HTML -}}</p>
+		<h2>{{- $i18n.WhyUs.Title -}}</h2>
+		<p>{{- $i18n.WhyUs.HTML -}}</p>
 
 		<div class='row' style='--grid-gap: 5rem;'>
 		{{- range $unused, $v := $Page.Data.Store.Business }}
@@ -96,6 +98,7 @@ algorithms are required.
 						--anchor-color: var(--color-contrast-200);
 						--anchor-color-focus: var(--color-primary-900);
 						--anchor-background-focus: var(--color-contrast-200);
+						margin-top: 1rem;
 					'>
 						{{- $w.Label -}}</a>
 					{{- end }}
@@ -183,13 +186,8 @@ algorithms are required.
 		'></div>
 
 
-		<h2>
-			{{- $i18n.ThisDesign.Title -}}
-		</h2>
-		<p>
-			{{- $i18n.ThisDesign.HTML -}}
-		</p>
-
+		<h2>{{- $i18n.ThisDesign.Title -}}</h2>
+		<p>{{- $i18n.ThisDesign.HTML -}}</p>
 		{{- $ret = merge $Page (dict "Input"
 			(dict "Data" $i18n.ThisDesign.Reference.Value)
 		) -}}

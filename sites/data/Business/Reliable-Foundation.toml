@@ -2,17 +2,17 @@
 ID = 'reliable-foundation'
 Title = 'Reliable Foundation'
 HTML = '''
-<b><i>Configured and Backed by the Right Technologies</i></b> — grow reliably
-with the latest insights across the industry.
+<b><i>We Offers Tested and Continuously Improvable Outcome</i></b> — grow your
+already procured assets adapting to changes in time.
 '''
 Plain = '''
-**Configured and Backed by the Right Technologies Autonomously** — grow reliably
-with the latest insights across the industry.
+**We Offers Tested and Continuously Improvable Outcome** — grow your already
+procured assets adapting to changes in time.
 '''
 
 [[Languages.EN.CTA]]
 Value = 'https://github.com/orgs/ZORALab/projects/9'
-Label = 'WITNESS LIVE HERE'
+Label = 'WITNESS PLANNER LIVE'
 
 
 
@@ -21,8 +21,8 @@ Label = 'WITNESS LIVE HERE'
 Name = 'Reliable Foundation'
 Decorative = true
 Loading = 'lazy'
-Width = '600'
-Height = '420'
+Width = '800'
+Height = '560'
 CORS = 'anonymous'
 Relationship = ''
 Design = ''
