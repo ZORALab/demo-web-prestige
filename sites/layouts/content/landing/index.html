@@ -16,7 +16,10 @@ algorithms are required.
 
 {{- /* render outputs */ -}}
 <main style='padding: 0;'>
-	<section id='{{- $i18n.Introduction.ID -}}' class='carousel-3bg'>
+	<section id='{{- $i18n.Introduction.ID -}}'
+		class='carousel-3bg'
+		style='background: #020202;'
+	>
 		<div class='content inverted' style='
 			background:	linear-gradient(to bottom right,
 						rgba(0, 0, 0, .85),
@@ -39,6 +42,8 @@ algorithms are required.
 				style=' display: block;
 					margin: 2rem 0 0;
 					max-width: 100%;
+					user-select: none;
+					-webkit-user-drag: none;
 					filter: invert(100%)
 						sepia(0%)
 						saturate(7376%)
@@ -54,7 +59,10 @@ algorithms are required.
 				margin-top: 5rem;
 			'>
 				{{- range $unused, $v := $i18n.Introduction.CTA }}
-				<div class='column' style='display: flex; justify-content; flex-start;'>
+				<div class='column' style='
+					display: flex;
+					justify-content; flex-start;
+				'>
 					{{- $ret = merge $Page (dict "Input"
 						(dict "Data" $v.Value)
 					) -}}
