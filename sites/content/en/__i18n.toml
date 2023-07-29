@@ -24,10 +24,10 @@ Focus = false
 
 
 [i18n.WhyUs]
-ID = 'why-us'
-Title = 'Why Us?'
+ID = 'why-choose-us'
+Title = 'Why Choose Us?'
 HTML = '''
-Some good reasons for doing business with us.
+Some solid reasons for choosing us to be in your business venture.
 '''
 
 
