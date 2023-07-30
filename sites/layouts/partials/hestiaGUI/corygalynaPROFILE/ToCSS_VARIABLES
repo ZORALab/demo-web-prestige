@@ -1,0 +1,44 @@
+[CSS.Variables]
+"--profile-layout" = """
+	"thumbnail content" minmax(0, var(--profile-height))
+	/ 40% 60%
+"""
+"--profile-overflow" = "hidden"
+
+"--profile-margin" = "2rem auto"
+"--profile-padding" = "0"
+
+"--profile-width" = "clamp(22rem, 60rem, 60rem)"
+"--profile-height" = "max-content"
+
+"--profile-border" = "none"
+"--profile-border-radius" = ".5rem"
+
+"--profile-color" = "var(--body-color)"
+"--profile-color-print" = "var(--body-color-print)"
+"--profile-background" = "var(--body-background)"
+"--profile-background-print" = "var(--body-background-print)"
+
+"--profile-timing" = "var(--timing-normal)"
+
+
+
+
+"--profile-thumbnail-overflow" = "hidden"
+"--profile-thumbnail-object-position" = "center center"
+"--profile-thumbnail-object-fit" = "cover"
+
+
+
+
+"--profile-content-overflow" = "auto"
+
+"--profile-content-height" = "auto"
+
+"--profile-content-margin" = "0"
+"--profile-content-padding" = "0 1rem"
+
+
+
+
+"--profile-title-margin" = ".3rem auto"
