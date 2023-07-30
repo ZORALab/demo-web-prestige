@@ -13,6 +13,7 @@ dataDir = "data"
 staticDir = [
 	"static",
 	"fonts/fontkaiFONT_KAISEIDECOL",
+	"themes/hestiaHUGO/fonts/googleFONT_NOTOSANS",
 ]
 layoutDir = "layouts"
 themesDir = "themes"

@@ -1,13 +1,13 @@
 [Languages.EN]
 ID = 'searchable-online'
-Title = 'Easily Searchable Online'
+Title = 'Definitely Searchable Online'
 HTML = '''
-<b><i>Easily Discoverable by Google, DuckDuckGo, Phind AI, etc</i></b> — SEO,
-LD+JSON, etc technologies included.
+<b><i>Discoverable by Google, DuckDuckGo, Phind AI, etc</i></b> — ensuring your
+customers can find you easily across the vast Internet.
 '''
 Plain = '''
-**Easily Discoverable by Google, DuckDuckGo, Phind AI, etc** — SEO, LD+JSON,
-etc technologies included.
+**Discoverable by Google, DuckDuckGo, Phind AI, etc** — ensuring your customers
+can find you easily across the vast Internet.
 '''
 
 [[Languages.EN.CTA]]
@@ -18,7 +18,7 @@ Label = ''
 
 
 [Media]
-Name = 'Searchable Online'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

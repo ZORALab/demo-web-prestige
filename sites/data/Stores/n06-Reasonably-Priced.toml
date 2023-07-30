@@ -1,13 +1,15 @@
 [Languages.EN]
-ID = 'reasonably-priced-tech-services'
-Title = 'Reasonably Priced Tech Services'
+ID = 'reasonably-priced-services'
+Title = 'Reasonably Priced After Sales Services'
 HTML = '''
-<b><i>By Transactional Request; Not By Monthly Fees</i></b> — Specifically
-designed for SMEs.
+<b><i>Specifically designed for small and medium businesses</i></b> —
+one-time transaction or subscription based support services; we have both for
+you to choose.
 '''
 Plain = '''
-**Charged By Transactional Request; Not By Monthly Fees** — Specifically
-designed for SMEs.
+**Specifically designed for small and medium businesses** —
+one-time transaction or subscription based support services; we have both for
+you to choose.
 '''
 
 [[Languages.EN.CTA]]
@@ -18,7 +20,7 @@ Label = ''
 
 
 [Media]
-Name = 'Reasonably Priced Tech Services'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

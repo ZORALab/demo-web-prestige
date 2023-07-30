@@ -7,6 +7,7 @@ Description = 'Description'
 
 [i18n.Introduction]
 ID = 'introduction'
+Title = 'Empowers Creativity Freedom'
 
 
 [[i18n.Introduction.CTA]]
@@ -27,7 +28,7 @@ Focus = false
 ID = 'why-choose-us'
 Title = 'Why Choose Us?'
 HTML = '''
-Some solid reasons for choosing us to be in your business venture.
+Some solid good reasons for choosing us to be in your business ventures.
 '''
 
 
@@ -37,8 +38,8 @@ Some solid reasons for choosing us to be in your business venture.
 ID = 'develop-yours'
 Title = 'Develop Yours Own'
 HTML = '''
-Customize your builds with all the following features, both included and
-optional today!
+Customize your business build with all the built-in technological features and
+values.
 '''
 
 
@@ -51,15 +52,14 @@ HTML = '''
 <ul>
 	<li><p>
 		Earning business trust via minimalism & straight to business
-		design
 	</p></li>
 	<li><p>
-		Maximizing your artwork showcasing easily and confidently via
-		high-res photographic product display
+		Maximizing your artwork showcasing easily and confidently with
+		high-res photographs
 	</p></li>
 	<li><p>
 		Easily adjustable, reliably developable, & swappable UI
-		components (button type, font, etc)
+		components (graphics, button type, font, etc)
 	</p></li>
 </ul>
 '''
@@ -71,19 +71,19 @@ Label = 'Inspired from BMW USA'
 
 
 
-[i18n.OurTeam]
-ID = 'our-team'
-Title = 'Our Team'
+[i18n.OurStakeholders]
+ID = 'our-stakeholders'
+Title = 'Our Stakeholders'
 HTML = '''
-Together, we explore what lies beyond the possibiltiies and imaginations!
+From supplying services to supportive customer ends; we never walk alone.
 '''
 
 
 
 
-[i18n.OurStakeholders]
-ID = 'our-stakeholders'
-Title = 'Our Stakeholders'
+[i18n.OurTeam]
+ID = 'our-team'
+Title = 'Our Team'
 HTML = '''
-From supplying services to supportive customer ends; We never walks alone.
+Together, we explore what lies beyond the possibiltiies and imaginations!
 '''

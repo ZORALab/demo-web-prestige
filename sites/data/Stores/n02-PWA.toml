@@ -1,13 +1,13 @@
 [Languages.EN]
 ID = 'pwa-app-based'
-Title = 'PWA App Mode From The Get Go'
+Title = 'Available App Mode & Offline Capable'
 HTML = '''
-<b><i>App Mode from the Start</i></b> — works for phone, tablet, or desktop app
-lovers; it even works in airplane mode (offline)!
+<b><i>Works even in an offline environment</i></b> — airplane mode, rural areas,
+on the mountains; it works just like an app.
 '''
 Plain = '''
-**App Mode from the Start** — works for phone, tablet, or desktop app lovers; it
-even works in airplane mode (offline)!
+**Works even in an offline environment** — airplane mode, rural areas,
+on the mountains; it works just like an app.
 '''
 
 [[Languages.EN.CTA]]
@@ -18,7 +18,7 @@ Label = ''
 
 
 [Media]
-Name = 'CDN Supported CSR'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

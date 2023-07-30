@@ -57,6 +57,17 @@ specific language governing permissions and limitations under the License.
 
 	margin: 0;
 	padding: 0;
+
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
 }
 
 .profile .content {

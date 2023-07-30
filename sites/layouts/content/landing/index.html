@@ -51,7 +51,7 @@ algorithms are required.
 						brightness(114%)
 						contrast(98%);
 			'/>
-			<h1 style='margin-top: 3rem;'>{{- .Titles.Page -}}</h1>
+			<h1 style='margin-top: 3rem;'>{{- $i18n.Introduction.Title -}}</h1>
 			<p>{{- .Descriptions.Page.Pitch }} {{ .Descriptions.Page.Summary -}}</p>
 			<div class='row' style='
 				width: max-content;
@@ -193,7 +193,7 @@ algorithms are required.
 	{{- $ret = string $ret.Output -}}
 	<section id='{{- $i18n.ThisDesign.ID -}}' style='
 		background:	linear-gradient(to bottom right,
-					rgba(255, 254, 255, .95),
+					rgba(255, 254, 255, .85),
 					rgba(255, 254, 255, 0)
 				),
 				url({{- $ret -}})
@@ -244,7 +244,7 @@ algorithms are required.
 		<h2>{{- $i18n.OurStakeholders.Title -}}</h2>
 		<p>{{- $i18n.OurStakeholders.HTML -}}</p>
 
-		<div class='row'>
+		<div class='row' style='margin-top: 3rem;'>
 			{{- range $unused, $v := $Page.Data.Store.Suppliers }}
 			<div class='column'>
 				{{- $ret = merge $Page (dict "Input"

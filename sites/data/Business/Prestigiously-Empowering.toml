@@ -2,12 +2,12 @@
 ID = 'prestigously-empowering'
 Title = 'Prestigously Empowering'
 HTML = '''
-<b><i>Always Listening and Tracking Every Single Bits of Your Idea</i></b> —
-just express your thought; we'll dance accordingly.
+<b><i>We Always Listening and Tracking Every Single Bits of Your Idea</i></b> —
+just express your thought freely; we'll dance accordingly.
 '''
 Plain = '''
-**Always Listening and Tracking Every Single Bits of Your Idea** — just express
-your thought; we'll dance accordingly.
+**We Always Listening and Tracking Every Single Bits of Your Idea** — just
+express your thought freely; we'll dance accordingly.
 '''
 
 [[Languages.EN.CTA]]

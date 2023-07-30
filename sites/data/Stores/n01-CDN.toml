@@ -1,13 +1,13 @@
 [Languages.EN]
 ID = 'cdn-empowered-distribution'
-Title = 'CDN Empowered Distribution'
+Title = 'Reliably Available and Fast'
 HTML = '''
-<b><i>Content Are Available Globally Anywhere to Client Reliabily Fast</i></b> —
-Focus on content creation, not messing with the tech.
+<b><i>Distributed using world-class content distribution network (CDN)</i></b> —
+Get access to your platform anywhere in the connected world; anytime.
 '''
 Plain = '''
-**Content Are Available Globally Anywhere to Client Reliabily Fast** —
-Focus on content creation, not messing with the tech.
+**Distributed using world-class content distribution network (CDN)** —
+Get access to your platform anywhere in the connected world; anytime.
 '''
 
 [[Languages.EN.CTA]]
@@ -18,7 +18,7 @@ Label = ''
 
 
 [Media]
-Name = 'CDN Empowered Distribution'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

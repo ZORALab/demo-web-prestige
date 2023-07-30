@@ -7,15 +7,15 @@ ID = ''
 
 [Metadata.Languages.EN]
 Name = 'Sibertius'
-Title = 'Feedbacks & Advisor'
+Title = 'Human Interface & Experience Advisor'
 Brand = ''
 CallSign = ''
 Slogan = '''
 “How?” needs a “Why?”
 '''
 Description = '''
-Reviews the team's produce is in tip-top quality with his very rich experiences
-inside the tech and marketing world.
+Helping the team to produce a tip-top quality result with his very rich
+experiences in the tech and marketing world.
 '''
 
 [Metadata.Languages.EN.Phone]

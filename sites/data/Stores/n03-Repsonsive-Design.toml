@@ -1,9 +1,9 @@
 [Languages.EN]
-ID = 'responsive-to-the-browsing-devices'
-Title = 'Responsive to the Browsing Devices'
+ID = 'responsive-design'
+Title = 'Viewable & Works for Most Devices'
 HTML = '''
-<b><i>1 Site; Works on Phone, Tablet, and Desktop</i></b> — react responsively
-with viewers' device(s).
+<b><i>Same platform; works on phone, tablet, laptop, and computer</i></b> — no
+additional configurations or installation needed.
 '''
 Plain = '''
 **1 Site; Works on Phone, Tablet, and Desktop** — react responsively with
@@ -18,7 +18,7 @@ Label = ''
 
 
 [Media]
-Name = 'Responsive to Devices'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

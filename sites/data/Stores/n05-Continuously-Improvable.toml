@@ -2,12 +2,12 @@
 ID = 'nimble-and-continuously-improvable'
 Title = 'Nimble & Continuously Improvable'
 HTML = '''
-<b><i>Flexible Tech, Componentized UI, & Version Controlled</i></b> — Feel free
-to express your ideas; we'll develop it when feasible.
+<b><i>Componentized UI design & Version Controlled</i></b> — For every executing
+single step, we make sure everything is confidently recoverable.
 '''
 Plain = '''
-**Flexible Tech, Componentized UI, & Version Controlled** — Feel free to express
-your ideas; we'll develop it when feasible.
+**Componentized UI design & Version Controlled** — For every executing
+single step, we make sure everything is confidently recoverable.
 '''
 
 [[Languages.EN.CTA]]
@@ -18,7 +18,7 @@ Label = ''
 
 
 [Media]
-Name = 'Nimble & Continuously Improvable'
+Name = ''
 Decorative = true
 Loading = 'lazy'
 Width = '500'

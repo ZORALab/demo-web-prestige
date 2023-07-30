@@ -12,14 +12,14 @@ HTML = '''
 <p>
 	<b>DISCLAIMER</b>
 	<br/>
-	Prestige Agency is a fictitious company designed by the ZORALab Team for
-	testing the
+	Prestige Design Agency is a fictitious company designed by the
+	ZORALab Team for testing the
 	<a href='https://hestia.zoralab.com' target='_blank'>ZORALab's Hestia</a>
-	technology and their capabilities of creating all required UI components
-	from scratch within a tight timeframe without sacrificing any critical
-	system lifeline. The results of this platform also serves as a live
-	demo for any potential client to hands-on with. Any factual or
-	realistical similarities are purely coincidences.
+	technology and testing their capabilities to create all required UI
+	components from scratch under a tight timeframe without sacrificing any
+	critical system lifeline requirements. The results of this platform is
+	serving as a live demo for any potential client to hands-on. Hence, any
+	factual or realistical similarities are purely coincidences.
 </p>
 '''
 
