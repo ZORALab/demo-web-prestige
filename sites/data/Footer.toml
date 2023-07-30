@@ -1,0 +1,55 @@
+[Languages.EN.Content]
+HTML = '''
+<p>© All Rights Reserved</p>
+<p>Designed & Materialized by ZORALab Enterprise (201603356108) team.</p>
+'''
+
+
+
+
+[Languages.EN.Body]
+HTML = '''
+<p>
+	<b>DISCLAIMER</b>
+	<br/>
+	Prestige Agency is a fictitious company designed by the ZORALab Team for
+	testing the
+	<a href='https://hestia.zoralab.com' target='_blank'>ZORALab's Hestia</a>
+	technology and their capabilities of creating all required UI components
+	from scratch within a tight timeframe without sacrificing any critical
+	system lifeline. The results of this platform also serves as a live
+	demo for any potential client to hands-on with. Any factual or
+	realistical similarities are purely coincidences.
+</p>
+'''
+
+
+
+
+[Logo]
+Name = 'Logo'
+Decorative = true
+Loading = 'lazy'
+Width = '500'
+Height = '350'
+CORS = 'anonymous'
+Relationship = ''
+Design = ''
+Preload = ''
+Control = false
+Autoplay = false
+Loop = false
+Mute = false
+Inline = false
+
+[[Logo.Sources]]
+URL = '/img/brands/prestige-animated-1200x335.svg'
+Type = 'image/svg+xml'
+Logo = 'all'
+Descriptor = '1x'
+
+[Logo.Tracks.en]
+URL = ''
+Kind = 'subtitles'
+Label = 'English'
+Default = false

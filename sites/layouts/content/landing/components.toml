@@ -115,3 +115,9 @@ Variables = []
 Name = 'corygalynaPROFILE'
 Include = true
 Variables = []
+
+
+[[List]]
+Name = 'corygalynaFOOTER'
+Include = true
+Variables = []

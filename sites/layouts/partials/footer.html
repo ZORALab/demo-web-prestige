@@ -1,0 +1,24 @@
+{{- $Page := . -}}
+{{- $lang := index $Page.Data.Store.Footer.Languages .Languages.Current.ID -}}
+{{- $ret := false -}}
+
+
+<footer>
+	{{- $ret = merge $Page (dict "Input" (dict "Data" $Page.Data.Store.Footer.Logo)) -}}
+	{{- $ret = partial "hestiaMEDIA/Sanitize" $ret -}}
+	{{- $ret = merge $ret.Output (dict
+		"Class" "logo"
+		"Style" "filter: invert(100%) sepia(0%) saturate(7376%) hue-rotate(316deg) brightness(114%) contrast(98%);"
+	) -}}
+	{{ partial "hestiaMEDIA/ToHTML" $ret -}}
+
+	<div class='content'>
+		{{- safeHTML $lang.Content.HTML -}}
+	</div>
+
+	{{- if $lang.Body.HTML }}
+	<div class='body'>
+		{{- safeHTML $lang.Body.HTML -}}
+	</div>
+	{{- end }}
+</footer>
