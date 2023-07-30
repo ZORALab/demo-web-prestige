@@ -71,6 +71,16 @@ Label = 'Inspired from BMW USA'
 
 
 
+[i18n.OurTeam]
+ID = 'our-team'
+Title = 'Our Team'
+HTML = '''
+Together, we explore what lies beyond the possibiltiies and imaginations!
+'''
+
+
+
+
 [i18n.OurStakeholders]
 ID = 'our-stakeholders'
 Title = 'Our Stakeholders'

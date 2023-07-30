@@ -260,5 +260,39 @@ algorithms are required.
 
 
 
+	<section id='{{- $i18n.OurTeam.ID -}}'>
+		<h2>{{- $i18n.OurTeam.Title -}}</h2>
+		<p>{{- $i18n.OurTeam.HTML -}}</p>
+
+		<div class='row'>
+			{{- range $unused, $v := $Page.Data.Store.Hestia.Contributors }}
+				{{- if eq $v.Metadata.ID "201603356108" }}
+					{{- continue -}}
+				{{- end }}
+			<div class='column'><div class='profile'>
+				{{- $ret = merge $Page (dict "Input"
+					(dict "Data" $v.Image)
+				) -}}
+				{{- $ret = partial "hestiaMEDIA/Sanitize" $ret -}}
+				{{- $ret = merge $ret.Output (dict "Class" "thumbnail") }}
+				{{- partial "hestiaMEDIA/ToHTML" $ret }}
+
+				{{- $ret = index
+						$v.Metadata.Languages
+						$Page.Languages.Current.ID
+				}}
+				<div class='content'>
+					<h3>{{- $ret.Name -}}</h3>
+					<p><b>{{- $ret.Title -}}</b></p>
+					<p>{{- $ret.Description -}}</p>
+				</div>
+			</div></div>
+			{{- end }}
+		</div>
+	</section>
+
+
+
+
 	{{- partial "epilogue.html" $Page }}
 </main>
