@@ -70,21 +70,37 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/img/portraits/hollowaykeanho-1200x1200.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/img/portraits/hollowaykeanho-1200x1200.webp"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
+URL = "/img/portraits/hollowaykeanho-1200x1200.jpg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
+URL = "/img/portraits/hollowaykeanho-480x480.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/img/portraits/hollowaykeanho-480x480.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/portraits/hollowaykeanho-480x480.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/portraits/hollowaykeanho-220x220.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/portraits/hollowaykeanho-220x220.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/portraits/hollowaykeanho-220x200.jpg"
 Cache = "network-first"

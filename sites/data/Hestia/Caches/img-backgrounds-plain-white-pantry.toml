@@ -70,21 +70,13 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/img/backgrounds/plain-white-pantry-2048x1075.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/img/backgrounds/plain-white-pantry-2048x1075.webp"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/img/backgrounds/plain-white-pantry-2048x1075.jpg"
 Cache = "network-first"

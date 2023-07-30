@@ -70,21 +70,9 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/en/index.html"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-1200x630.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/en/index.json"
 Cache = "network-first"

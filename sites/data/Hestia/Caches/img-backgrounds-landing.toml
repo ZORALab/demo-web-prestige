@@ -70,21 +70,109 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/img/backgrounds/landing-01-4912x4912.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/img/backgrounds/landing-01-4912x4912.webp"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
+URL = "/img/backgrounds/landing-01-4912x4912.jpg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
+URL = "/img/backgrounds/landing-01-2048x2048.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/img/backgrounds/landing-01-2048x2048.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-01-2048x2048.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-01-1200x1200.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-01-1200x1200.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-01-1200x1200.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-4912x4912.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-4912x4912.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-4912x4912.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-2048x2048.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-2048x2048.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-2048x2048.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-1200x1200.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-1200x1200.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-02-1200x1200.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-4912x4912.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-4912x4912.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-4912x4912.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-2048x2048.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-2048x2048.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-2048x2048.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-1200x1200.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-1200x1200.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/landing-03-1200x1200.jpg"
 Cache = "network-first"

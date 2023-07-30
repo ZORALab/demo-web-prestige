@@ -70,21 +70,13 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/fonts/KaiseiDecol-Bold.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/fonts/KaiseiDecol-Medium.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
-Cache = "network-first"
-
-[[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/fonts/KaiseiDecol-Regular.ttf"
 Cache = "network-first"

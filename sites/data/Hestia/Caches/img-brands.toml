@@ -70,21 +70,25 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/img/brands/cloudflare-1200x630.svg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/img/brands/github-1200x630.svg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
+URL = "/img/brands/google-analytics-4-1200x630.svg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
+URL = "/img/brands/hugo-1200x630.svg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/img/brands/prestige-animated-1200x335.svg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/brands/zoralab-1200x630.svg"
 Cache = "network-first"

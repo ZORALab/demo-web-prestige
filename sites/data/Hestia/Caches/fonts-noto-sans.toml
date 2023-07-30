@@ -70,21 +70,77 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/fonts/NotoColorEmoji.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/fonts/NotoSans-Black.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
+URL = "/fonts/NotoSans-BlackItalic.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
+URL = "/fonts/NotoSans-Bold.ttf"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/fonts/NotoSans-BoldItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-ExtraBold.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-ExtraBoldItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-ExtraLight.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-ExtraLightItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-Italic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-Light.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-LightItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-Medium.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-MediumItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-Regular.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-SemiBold.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-SemiBoldItalic.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-Thin.ttf"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/fonts/NotoSans-ThinItalic.ttf"
 Cache = "network-first"

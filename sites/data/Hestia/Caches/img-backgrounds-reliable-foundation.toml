@@ -70,21 +70,37 @@
 #   URL = "/zh-hans"
 #   Cache = "cache-first"
 [[Contents]]
-URL = "/index.html"
+URL = "/img/backgrounds/reliable-foundation-1024x717.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/index.json"
+URL = "/img/backgrounds/reliable-foundation-1024x717.webp"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x630.jpg"
+URL = "/img/backgrounds/reliable-foundation-1024x717.jpg"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-1200x1200.jpg"
+URL = "/img/backgrounds/reliable-foundation-800x560.avif"
 Cache = "network-first"
 
 [[Contents]]
-URL = "/thumbnails-480x480.jpg"
+URL = "/img/backgrounds/reliable-foundation-800x560.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/reliable-foundation-800x560.jpg"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/reliable-foundation-500x350.avif"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/reliable-foundation-500x350.webp"
+Cache = "network-first"
+
+[[Contents]]
+URL = "/img/backgrounds/reliable-foundation-500x350.jpg"
 Cache = "network-first"
