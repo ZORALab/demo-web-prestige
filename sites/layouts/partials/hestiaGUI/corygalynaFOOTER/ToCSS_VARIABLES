@@ -1,0 +1,42 @@
+[CSS.Variables]
+"--footer-layout" = """
+	"logo content" minmax(0, max-content)
+	"body body" auto
+	/ 30% 70%
+"""
+"--footer-overflow" = "hidden"
+
+"--footer-color" = "var(--color-typography-50)"
+"--footer-color-print" = "var(--body-color-print)"
+"--footer-background" = "#000"
+"--footer-background-print" = "var(--body-background-print)"
+
+"--footer-timing" = "var(--timing-normal)"
+
+
+
+
+"--footer-logo-overflow" = "hidden"
+"--footer-logo-object-position" = "center center"
+"--footer-logo-object-fit" = "contain"
+
+
+
+
+"--footer-content-overflow" = "auto"
+
+"--footer-content-height" = "auto"
+
+"--footer-content-margin" = "0"
+"--footer-content-padding" = "0 2rem"
+
+
+
+
+"--footer-body-margin" = "3rem 0 0"
+"--footer-body-padding" = "0"
+
+
+
+
+"--footer-title-margin" = ".3rem auto"
