@@ -1,0 +1,5 @@
+Sitemap: https://prestige-demo.zoralab.com/en/sitemap.xml
+Sitemap: https://prestige-demo.zoralab.com/sitemap.xml
+
+User-agent: *
+Allow: /
